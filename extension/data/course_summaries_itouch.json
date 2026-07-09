@@ -1,0 +1,3174 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "school": "中原大學",
+    "source": "開課查詢系統匯出資料與公開課綱頁面",
+    "yearTerm": "1142",
+    "generatedAt": "2026-06-20T09:33:46.885683+00:00",
+    "description": "AI 幫你監 Chrome Extension 使用的課綱摘要資料，本版本不使用外部 AI API"
+  },
+  "courses": {
+    "MI000A": {
+      "courseCode": "MI000A",
+      "courseName": "自然科學與人工智慧導論",
+      "teacher": "江紀明",
+      "credits": "2",
+      "timeText": "2-78",
+      "classroom": "教學409",
+      "department": "通識中心",
+      "courseCategory": "科學",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "商學院、人育學院學生修課為主。Primarily courses for students in the College of Humanities and Education and the College of Business.",
+      "opCode": "MI000A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI000A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI000A",
+      "plainSummary": "本課程的總體教學目標，是把非理工背景的一年級生培養成能在不確定中「定義外顯屬性→設計 可驗收任務→以證據收斂決策」的整體性人才。以「決策＝AI 的預測＋人的判斷」為主線，要求 學生用 Attribute-first 的方式把模糊願望轉寫",
+      "grading": [
+        {
+          "item": "課程類別 <PBL課程><實作課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 4:優質教育",
+          "percent": 20,
+          "rawText": "課程類別 <PBL課程><實作課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 17:夥伴關係, 9:產業創新與基礎建設, 15:陸域生態, 13:氣候行動, 11:永 續城市與社區, 學系核心課程能力指標 1.創意思考 2.理性批判 3.科學涵養 4.社會參與(物類) 課程"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新",
+          "percent": 30,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新局面。 5.能以提問的方式釐清問題本質 。 6.能尋找解決問題的方案。 7.能分析各種解決問題方案的優 、缺點。 8.能在所學領域上實際展開行動 。 9.能在所學領域上發展新方向。 1.問答2.報告3"
+        },
+        {
+          "item": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 3.能調整心態面對新情境。 4.能以淺顯易懂",
+          "percent": 30,
+          "rawText": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 3.能調整心態面對新情境。 4.能以淺顯易懂的方式理解複雜 的事物。 5.能從零散或片段的事物中找出 共同點。 6.能運用所學，形成一套屬於自 己的見解。 1.問答2.報告3.作業4.作業 關懷 科學涵養 30%"
+        },
+        {
+          "item": "1.能探索自我的生命價值，促進 自我成長。 2.能規劃自己的人生目標並開展 生涯願景。 3.能不斷探索自我的優缺點，並 ",
+          "percent": 20,
+          "rawText": "1.能探索自我的生命價值，促進 自我成長。 2.能規劃自己的人生目標並開展 生涯願景。 3.能不斷探索自我的優缺點，並 加以改善。 1.問答2.報告3.作業4.作業 倫理 社會參與(物 類) 20%"
+        },
+        {
+          "item": "1.能養成合宜的價值觀。 2.能實踐人際間的互動規範。 3.能分辨人與人之間的倫常禮儀 。 4.能自發性地展現合宜的社會",
+          "percent": null,
+          "rawText": "1.能養成合宜的價值觀。 2.能實踐人際間的互動規範。 3.能分辨人與人之間的倫常禮儀 。 4.能自發性地展現合宜的社會規 範行為。 5.能明辨是非善惡。 1.問答2.報告3.作業4.作業 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 好奇與自我敘事 完"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "實作"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI051A": {
+      "courseCode": "MI051A",
+      "courseName": "管理數學",
+      "teacher": "傅子恒",
+      "credits": "3",
+      "timeText": "3-78C",
+      "classroom": "教學402",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "內容為線性代數",
+      "opCode": "MI051A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI051A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI051A",
+      "plainSummary": "培養學生以數學化的思維分析企業問題，能夠使用模型化（modeling）與演算法 （algorithms）來進行決策支援。",
+      "grading": [
+        {
+          "item": "課程類別 <活動誘發學習><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力",
+          "percent": 50,
+          "rawText": "課程類別 <活動誘發學習><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 課程教學目標 培養學生以數學化的思維分析企業問題，能夠使用模型化（modelin"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 15,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.學習態度3.期中考4.期末 考 統整 整合能力(資 訊技術與企業 管理) 15%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 1.作業2.學習態度3.期中考4.期末 考 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.學習態度3.期中考4.期末 考 創新 創意及創業能 力",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.學習態度3.期中考4.期末 考 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能以提問的方式釐清問題本質 。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.作業2.學",
+          "percent": null,
+          "rawText": "1.能以提問的方式釐清問題本質 。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.作業2.學習態度3.期中考4.期末 考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-25 管理數學概論 一般教學:講授, 2 2026- 03-04"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI121A": {
+      "courseCode": "MI121A",
+      "courseName": "管理學",
+      "teacher": "卓綵倫",
+      "credits": "3",
+      "timeText": "2-34B",
+      "classroom": "教學402",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "服務學習類課程",
+      "opCode": "MI121A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI121A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI121A",
+      "plainSummary": "二十世紀早期管理學作家 瑪麗．法雷特 把管理學定義為「讓人們做事的藝術」，透過調度和運用 各種人際上、財務方面、原料類、知識上或其它無形的資源。管理有五大作用：計畫、組織、領 導、協調、控制，本課程讓同學透過服務學習的方式，運用管理學理",
+      "grading": [
+        {
+          "item": "課程類別 <深碗課程><PBL課程><實作課程><活動誘發學習> SDGs目標關 聯性 8:全人職場及經濟成長, 學系核",
+          "percent": 50,
+          "rawText": "課程類別 <深碗課程><PBL課程><實作課程><活動誘發學習> SDGs目標關 聯性 8:全人職場及經濟成長, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.應用能力(資訊與管理) 3.創意及創業能力 4.理解專業倫理及社會責任之能力 課程教學目標 二十世紀早期管理學作家 瑪麗．法雷特 把"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期末考3.報告4.報",
+          "percent": 15,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期末考3.報告4.報告 實務 應用能力(資 訊與管理) 15%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期末考3.報告 創新 創意及創業能 力",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期末考3.報告 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能在所學領域上實際展開行動 。 1.作業2.報告3.報告 倫理 理解專業倫理 及社會責任之 能力",
+          "percent": 20,
+          "rawText": "1.能在所學領域上實際展開行動 。 1.作業2.報告3.報告 倫理 理解專業倫理 及社會責任之 能力 20%"
+        },
+        {
+          "item": "1.能自發性地展現合宜的社會規 範行為。 1.作業2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學",
+          "percent": null,
+          "rawText": "1.能自發性地展現合宜的社會規 範行為。 1.作業2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 管理與組織概論 1.討論 2.講授 1.問答 2 2026- 03-03 組織文化與環境的限制 1.討論 2.講授 1.問答 3 2026-"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "討論",
+        "實作",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI139A": {
+      "courseCode": "MI139A",
+      "courseName": "Java程式設計",
+      "teacher": "李國誠",
+      "credits": "3",
+      "timeText": "1-234",
+      "classroom": "教學705",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI139A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI139A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI139A",
+      "plainSummary": "課程教學目標：本課程教授Java物件導向程式語言設計，訓練同學熟悉電腦程式語言的運作方式 ，培養邏輯思考使用電腦程式語言解決問題。 完成本課程，學生將能： 1. 熟悉Java程式語言基本語法 2. 了解物件導向程式設計概念 3. 能夠使",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一甲Java程式設計 課程計畫 課程代碼 MI139A 授課教師 李國誠 課程名稱 Java程式設",
+          "percent": 30,
+          "rawText": "1142 學年度 資管一甲Java程式設計 課程計畫 課程代碼 MI139A 授課教師 李國誠 課程名稱 Java程式設計 開課班級 資管一甲 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 3.0 上課地點/時 間 教學705/1-234 學前科目或"
+        },
+        {
+          "item": "(二)期末線上測驗",
+          "percent": 30,
+          "rawText": "(二)期末線上測驗 30%"
+        },
+        {
+          "item": "(三)期末Project",
+          "percent": 20,
+          "rawText": "(三)期末Project 20%"
+        },
+        {
+          "item": "(四)作業",
+          "percent": 20,
+          "rawText": "(四)作業 20%"
+        },
+        {
+          "item": "成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數",
+          "percent": 80,
+          "rawText": "成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數量及語文 能力) 80%"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題。 1.作業2.上機測驗3.課堂表現4.期 中考5.期末考 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": null,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 1.作業2.上機測驗3.期中考4.期末 考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 Ch1. 認識Java 1.認識Ja"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "上機",
+        "測驗",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI276A": {
+      "courseCode": "MI276A",
+      "courseName": "企業資料通訊",
+      "teacher": "林志浩",
+      "credits": "3",
+      "timeText": "2-6",
+      "classroom": "教學401",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI276A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI276A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI276A",
+      "plainSummary": "本課程採用創新教學法，結合教學影音教材，培養學生： 1. 發展網際網路與資料通訊之應用 2. 了解應用層、傳輸層、網路層、鏈結層之相關技術",
+      "grading": [
+        {
+          "item": "課程類別 <PBL課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 9:產業創新與基礎建設,",
+          "percent": 60,
+          "rawText": "課程類別 <PBL課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 9:產業創新與基礎建設, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.應用能力(資訊與管理) 課程教學目標 本課程採用創新教學法，結合教學影音教材，培養學生： 1. 發展網際網路與資料通訊之應用"
+        },
+        {
+          "item": "1.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 實務 應用能力(",
+          "percent": 40,
+          "rawText": "1.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 實務 應用能力(資 訊與管理) 40%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 課程綱要及進度 週 ",
+          "percent": null,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 【目標】課程介紹 【內容】課程規劃與網路概念 一般教學:講授,PBL, 課堂討論, 【實踐】i- learn"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "測驗",
+        "討論",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI610A": {
+      "courseCode": "MI610A",
+      "courseName": "英文(二)",
+      "teacher": "江麗蓉",
+      "credits": "1",
+      "timeText": "4-56",
+      "classroom": "教學810",
+      "department": "語言中心",
+      "courseCategory": "一般",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "課程為混系上課 A mixed-department class",
+      "opCode": "MI610A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI610A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI610A",
+      "plainSummary": "The main goals of this course are as follows. 1.Use thematically organized reading passages and other extensive readin",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一甲英文(二) 課程計畫 課程代碼 MI610A 授課教師 江麗蓉 課程名稱 英文(二) 開課班級",
+          "percent": 80,
+          "rawText": "1142 學年度 資管一甲英文(二) 課程計畫 課程代碼 MI610A 授課教師 江麗蓉 課程名稱 英文(二) 開課班級 資管一甲 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 課程為混系上課 A mixed- department class 授課性質 一般 授課語言 中文 人數上限 45 開課時數 2."
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.期中考3.期末考 專業 ",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.期中考3.期末考 專業 外語聽說能力20%"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.課堂參與(In-clas",
+          "percent": 10,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.課堂參與(In-class participation)3.SDGs Presentation4.期中考 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能尋求外在資源，以面對新情 境。 1.測驗2.期末考 實務 實務應用能力",
+          "percent": 10,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能尋求外在資源，以面對新情 境。 1.測驗2.期末考 實務 實務應用能力10%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.線上測驗 On-li",
+          "percent": 10,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.線上測驗 On-line tests 溝通 合作與溝通能 力 10%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.課堂參與(In-clas",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.課堂參與(In-class participation)2.SDGs Presentation 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-26 Course O"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "CEE",
+      "courseOutputs": [
+        "報告",
+        "測驗",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI612A": {
+      "courseCode": "MI612A",
+      "courseName": "英語聽講(二)",
+      "teacher": "簡洛汾",
+      "credits": "1",
+      "timeText": "1-56",
+      "classroom": "全人南棟301",
+      "department": "語言中心",
+      "courseCategory": "英聽",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "須繳語言實習費600元 EAP/ESP課程",
+      "opCode": "MI612A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI612A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI612A",
+      "plainSummary": "一、配合 EMI 政策，培養學生以英語理解課程內容並有效表達觀點之能力。 二、透過任務導向與真實情境模擬，提升學生在學術與職場脈絡中的英語溝通能力。 三、結合數位工具與 AI 輔助學習，強化聽說能力，同時培養資訊判讀與自主修正能力。 四",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一甲英語聽講(二) 課程計畫 課程代碼 MI612A 授課教師 簡洛汾 課程名稱 英語聽講(二) ",
+          "percent": 10,
+          "rawText": "1142 學年度 資管一甲英語聽講(二) 課程計畫 課程代碼 MI612A 授課教師 簡洛汾 課程名稱 英語聽講(二) 開課班級 資管一甲 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 須繳語言實習費600元 EAP/ESP課程 授課性質 英聽 授課語言 英語 人數上限 57 開課時數 2.0 上課地點/時"
+        },
+        {
+          "item": "for this component. 測驗期間（Test Periods）： ‧第一次（First Period）：0",
+          "percent": 20,
+          "rawText": "for this component. 測驗期間（Test Periods）： ‧第一次（First Period）：03/20-04/10 ‧第二次（Second Period）：04/24-05/15 2.外語自學（Self-learning Activities）：5％ 為配合教育部政策，除持續鼓勵學生考取正式英"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.平時考2.測驗3.測驗 專業 外語聽說能力",
+          "percent": 50,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.平時考2.測驗3.測驗 專業 外語聽說能力50%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.平時考2.報告3.語言中心配分 4.測驗5.測驗 統整 統整與應變能 力",
+          "percent": 10,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.平時考2.報告3.語言中心配分 10%4.測驗5.測驗 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.報告2.語言中心配分",
+          "percent": 10,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.報告2.語言中心配分10%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.測驗2.測驗 課程",
+          "percent": 25,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.測驗2.測驗 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 Course Introductions lecture, Pair discussion,"
+        },
+        {
+          "item": "期末考 期末考 18 2026- 06-22 (期末考週) 一般教學:回饋分享, 報告, 規範 一、上課時請勿飲食，請勿",
+          "percent": 10,
+          "rawText": "期末考 期末考 18 2026- 06-22 (期末考週) 一般教學:回饋分享, 報告, 規範 一、上課時請勿飲食，請勿穿拖鞋。 二、中原大學學則請假、缺曠課及補考規定： 1.學生因故不能上課時，須按照學生請假規則請假，學生請假規則另訂於中原大學請假規則。(第 25條) 2.學生未經請假、請假未准或假期已滿而不上課者為"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "測驗",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI801A": {
+      "courseCode": "MI801A",
+      "courseName": "語文與修辭",
+      "teacher": "邱梓桓",
+      "credits": "2",
+      "timeText": "3-12",
+      "classroom": "教學618",
+      "department": "通識中心",
+      "courseCategory": "修辭",
+      "className": "資管一甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI801A",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI801A&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI801A",
+      "plainSummary": "本課程以語文的運用及其效果為主軸，期使修課學生掌握文學寫作與應用文書寫作的基本概念。 除了不同文本的寫作手法及作意探析，亦望藉由深入文本，於思索、討論與發表之際，訓練書面 與口語之表達能力，並體會語文即在生活各處。",
+      "grading": [
+        {
+          "item": "課程類別 SDGs目標關 聯性 5:性別平等, 4:優質教育, 學系核心課程能力指標 1.溝通表達 2.人文學養 3.道",
+          "percent": 20,
+          "rawText": "課程類別 SDGs目標關 聯性 5:性別平等, 4:優質教育, 學系核心課程能力指標 1.溝通表達 2.人文學養 3.道德實踐 4.語文表達 課程教學目標 本課程以語文的運用及其效果為主軸，期使修課學生掌握文學寫作與應用文書寫作的基本概念。 除了不同文本的寫作手法及作意探析，亦望藉由深入文本，於思索、討論與發表之際，訓"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5",
+          "percent": 40,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 關懷 人文學養 40%"
+        },
+        {
+          "item": "1.能探索自我的生命價值，促進 自我成長。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作",
+          "percent": 20,
+          "rawText": "1.能探索自我的生命價值，促進 自我成長。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 倫理 道德實踐 20%"
+        },
+        {
+          "item": "1.能養成合宜的價值觀。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報",
+          "percent": 20,
+          "rawText": "1.能養成合宜的價值觀。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 溝通 語文表達 20%"
+        },
+        {
+          "item": "1.與他人交換意見時，彼此都能 相互理解。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作",
+          "percent": null,
+          "rawText": "1.與他人交換意見時，彼此都能 相互理解。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-25 ※以課程平台公告為準 課程安排說明、"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "測驗",
+        "討論",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI000B": {
+      "courseCode": "MI000B",
+      "courseName": "自然科學與人工智慧導論",
+      "teacher": "黃俊哲",
+      "credits": "2",
+      "timeText": "2-78",
+      "classroom": "教學408",
+      "department": "通識中心",
+      "courseCategory": "科學",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "商學院、人育學院學生修課為主。Primarily courses for students in the College of Humanities and Education and the College of Business.",
+      "opCode": "MI000B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI000B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI000B",
+      "plainSummary": "藉由自然科學在生活中的各種應用，帶領學生思考自然科學，並強化學生的科學精神與科學素養 。同時以當代熱門的科學議題：人工智慧，加強學生對人工智慧的認知、應用、以及人工智慧所 帶來對人文社會影響省思。 1.知識：介紹日常生活中接觸的科學、人",
+      "grading": [
+        {
+          "item": "課程類別 <實作課程> SDGs目標關 聯性 3:良好健康與福祉, 11:永續城市與社區, 12:責任的消費與生產, 學",
+          "percent": 20,
+          "rawText": "課程類別 <實作課程> SDGs目標關 聯性 3:良好健康與福祉, 11:永續城市與社區, 12:責任的消費與生產, 學系核心課程能力指標 1.創意思考 2.理性批判 3.科學涵養 4.社會參與(物類) 課程教學目標 藉由自然科學在生活中的各種應用，帶領學生思考自然科學，並強化學生的科學精神與科學素養 。同時以當代熱門"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新",
+          "percent": 30,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新局面。 5.能以提問的方式釐清問題本質 。 6.能尋找解決問題的方案。 7.能在所學領域上實際展開行動 。 1.作業2.平時考3.報告4.報告 統整 理性批判 30%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 30,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.作業2.平時考3.報告4.報告 關懷 科學涵養 30%"
+        },
+        {
+          "item": "1.能探索自我的生命價值，促進 自我成長。 2.能不斷探索自我的優缺點，並 加以改善。 1.作業2.平時考3.報告4.報",
+          "percent": 20,
+          "rawText": "1.能探索自我的生命價值，促進 自我成長。 2.能不斷探索自我的優缺點，並 加以改善。 1.作業2.平時考3.報告4.報告 倫理 社會參與(物 類) 20%"
+        },
+        {
+          "item": "1.能養成合宜的價值觀。 2.能分辨人與人之間的倫常禮儀 。 3.能自發性地展現合宜的社會規 範行為。 1.作業2.平時",
+          "percent": null,
+          "rawText": "1.能養成合宜的價值觀。 2.能分辨人與人之間的倫常禮儀 。 3.能自發性地展現合宜的社會規 範行為。 1.作業2.平時考3.報告4.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 自然科學導論介紹---讓學生了解學習 自然科學的目的、方法、認知與態"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "實作"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI130B": {
+      "courseCode": "MI130B",
+      "courseName": "企業概論",
+      "teacher": "吳肇銘",
+      "credits": "2",
+      "timeText": "2-34",
+      "classroom": "資管103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI130B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI130B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI130B",
+      "plainSummary": "一、透過真實企業專案/問題解決過程，訓練學生瞭解企業的基本功能與運作 二、透過真實企業專案/問題解決過程，訓練學生瞭解並實現團隊的合作與學習 三、透過真實企業專案/問題解決過程，訓練學生實際面對動態的商業環境並解決問題",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一乙企業概論 課程計畫 課程代碼 MI130B 授課教師 吳肇銘 課程名稱 企業概論 開課班級 資",
+          "percent": 40,
+          "rawText": "1142 學年度 資管一乙企業概論 課程計畫 課程代碼 MI130B 授課教師 吳肇銘 課程名稱 企業概論 開課班級 資管一乙 學分 2 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 2.0 上課地點/時 間 資管103/2-34 學前科目或能 力需求 教學助"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.專題3.報告4.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 3.能以淺顯易懂的方式理解複雜 的事物。 4",
+          "percent": 20,
+          "rawText": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 3.能以淺顯易懂的方式理解複雜 的事物。 4.能從零散或片段的事物中找出 共同點。 5.能運用所學，形成一套屬於自 己的見解。 6.能調整心態面對新情境。 1.作業2.報告3.報告 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.報告3.報告 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新局面。 5.能以提問的方式釐清問題本質 。 6.能尋找解決問題的方案。 7.能分析各種解決問題方案的優 、缺點。 8.能在所學領域上實際展開行動 。 9.能在所學領域上發展新方向。 1.作業2.報告3"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "專題"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI139B": {
+      "courseCode": "MI139B",
+      "courseName": "Java程式設計",
+      "teacher": "闕豪恩",
+      "credits": "3",
+      "timeText": "1-567",
+      "classroom": "管理102",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI139B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI139B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI139B",
+      "plainSummary": "課程教學目標：本課程教授Java物件導向程式語言設計，訓練同學熟悉電腦程式語言的運作方式 ，培養邏輯思考使用電腦程式語言解決問題。 完成本課程，學生將能： 1. 熟悉Java程式語言基本語法 2. 了解物件導向程式設計概念 3. 能夠使",
+      "grading": [
+        {
+          "item": "課程類別 <程式設計課程> SDGs目標關 聯性 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) ",
+          "percent": 30,
+          "rawText": "課程類別 <程式設計課程> SDGs目標關 聯性 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 課程教學目標 課程教學目標：本課程教授Java物件導向程式語言設計，訓練同學熟悉電腦程式語言的運作方式 ，培養邏輯思考使用電腦程式語言解決問題。 完成本課程，學生將"
+        },
+        {
+          "item": "(二) 期末線上報告",
+          "percent": 30,
+          "rawText": "(二) 期末線上報告 30%"
+        },
+        {
+          "item": "(三) 平時線上作業",
+          "percent": 40,
+          "rawText": "(三) 平時線上作業 40%"
+        },
+        {
+          "item": "二、 其他上課注意事項：請配合線上教材，完成各項線上測驗、作業或是報告上傳。 成果導向之課程設計 校指標學系能力指標權重",
+          "percent": 80,
+          "rawText": "二、 其他上課注意事項：請配合線上教材，完成各項線上測驗、作業或是報告上傳。 成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數量及語文 能力) 80%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.上機測驗3.上機測驗 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": null,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 1.作業2.上機測驗3.上機測驗 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 (全校上課開始) 課程簡介 (說明上課內容、評"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "上機",
+        "測驗",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI276B": {
+      "courseCode": "MI276B",
+      "courseName": "企業資料通訊",
+      "teacher": "林志浩",
+      "credits": "3",
+      "timeText": "2-5",
+      "classroom": "教學401",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI276B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI276B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI276B",
+      "plainSummary": "本課程採用創新教學法，結合教學影音教材，培養學生： 1. 發展網際網路與資料通訊之應用 2. 了解應用層、傳輸層、網路層、鏈結層之相關技術",
+      "grading": [
+        {
+          "item": "課程類別 <PBL課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 9:產業創新與基礎建設,",
+          "percent": 60,
+          "rawText": "課程類別 <PBL課程><翻轉教學><活動誘發學習><新興科技創新教學> SDGs目標關 聯性 9:產業創新與基礎建設, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.應用能力(資訊與管理) 課程教學目標 本課程採用創新教學法，結合教學影音教材，培養學生： 1. 發展網際網路與資料通訊之應用"
+        },
+        {
+          "item": "1.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 實務 應用能力(",
+          "percent": 40,
+          "rawText": "1.能將專業知識融會貫通，統合 成完整的知識。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 實務 應用能力(資 訊與管理) 40%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 課程綱要及進度 週 ",
+          "percent": null,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 1.測驗2.作業3.互動4.期中考5.期 末考6.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 【目標】課程介紹 【內容】課程規劃與網路概念 一般教學:講授,PBL, 課堂討論, 【實踐】i- learn"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "測驗",
+        "討論",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI610B": {
+      "courseCode": "MI610B",
+      "courseName": "英文(二)",
+      "teacher": "陳佩萱",
+      "credits": "1",
+      "timeText": "4-56",
+      "classroom": "教學315B",
+      "department": "語言中心",
+      "courseCategory": "一般",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "課程為混系上課 A mixed-department class",
+      "opCode": "MI610B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI610B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI610B",
+      "plainSummary": "Course Objectives：This course is designed to enhance students’ reading fluency, comprehension, and vocabulary skills a",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一乙英文(二) 課程計畫 課程代碼 MI610B 授課教師 陳佩萱 課程名稱 英文(二) 開課班級",
+          "percent": 50,
+          "rawText": "1142 學年度 資管一乙英文(二) 課程計畫 課程代碼 MI610B 授課教師 陳佩萱 課程名稱 英文(二) 開課班級 資管一乙 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 課程為混系上課 A mixed- department class 授課性質 一般 授課語言 中文 人數上限 45 開課時數 2."
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.Quizzes & Assign",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.Quizzes & Assignments2.Attendance and Class Participation3.Online Test4.SDGs Group Presentation 5.期中考6.期末考 專業 外語聽說能力"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.Quizzes & Assign",
+          "percent": 10,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.Quizzes & Assignments2.Attendance and Class Participation3.Online Test4.SDGs Group Presentation 5.期中考6.期末考 統整 統整與應變能"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能尋求外在資源，以面對新情 境。 1.Quizzes & Assignme",
+          "percent": 10,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能尋求外在資源，以面對新情 境。 1.Quizzes & Assignments2.Attendance and Class Participation3.Online Test4.SDGs Group Presentation 5.期中考6.期末考 實務 實務應用能力10"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.Quizzes & Assi",
+          "percent": 10,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.Quizzes & Assignments2.Attendance and Class Participation3.Online Test4.SDGs Group Presentation 5.期中考6.期末考 溝通 合作與溝"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.Quizzes & As",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.Quizzes & Assignments2.Attendance and Class Participation3.Online Test4.SDGs Group Presentation 5.期中考6.期末考 課程綱要及"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "測驗",
+        "討論",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI612B": {
+      "courseCode": "MI612B",
+      "courseName": "英語聽講(二)",
+      "teacher": "梁立芳",
+      "credits": "1",
+      "timeText": "5-34",
+      "classroom": "全人南棟301",
+      "department": "語言中心",
+      "courseCategory": "英聽",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "須繳語言實習費600元 A language lab fee of NT$600 is required. EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI612B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI612B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI612B",
+      "plainSummary": "This course is to develop student’s listening skills and improve speaking skills in real life and test taking. In each",
+      "grading": [
+        {
+          "item": "1142 學年度 資管一乙英語聽講(二) 課程計畫 課程代碼 MI612B 授課教師 梁立芳 課程名稱 英語聽講(二) ",
+          "percent": 20,
+          "rawText": "1142 學年度 資管一乙英語聽講(二) 課程計畫 課程代碼 MI612B 授課教師 梁立芳 課程名稱 英語聽講(二) 開課班級 資管一乙 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 須繳語言實習費600元 A language lab fee of NT$600 is required. EAP/ESP"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.報告2.隨堂練習(In-class Work)3.期中考4.期末考 專業 外",
+          "percent": 50,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.報告2.隨堂練習(In-class Work)3.期中考4.期末考 專業 外語聽說能力50%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.出席與參與 (Attendance & Participation)2.平時",
+          "percent": 10,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.出席與參與 (Attendance & Participation)2.平時考3.自學方 案(Self-Learning Activities)4.報 告5.隨堂練習(In-class Work)6.期 中考7.期末考 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能從零散或片段的事物中找出 共同點。 2.能調整心態面對新情境。 3.能尋求人際支持，以面對新情 境。 4.能尋求外",
+          "percent": 10,
+          "rawText": "1.能從零散或片段的事物中找出 共同點。 2.能調整心態面對新情境。 3.能尋求人際支持，以面對新情 境。 4.能尋求外在資源，以面對新情 境。 1.隨堂練習(In-class Work)2.期末 考 實務 實務應用能力10%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.線上測驗(Online TO",
+          "percent": 10,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.線上測驗(Online TOEIC Test: Listening Section)2.期中考 溝通 合作與溝通能 力 10%"
+        },
+        {
+          "item": "1.與他人交談時，對方能瞭解我 所要傳達的訊息。 2.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席與參與 (At",
+          "percent": null,
+          "rawText": "1.與他人交談時，對方能瞭解我 所要傳達的訊息。 2.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席與參與 (Attendance & Participation)2.隨堂練習(In- class Work) 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "上機",
+        "測驗",
+        "討論",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI801B": {
+      "courseCode": "MI801B",
+      "courseName": "語文與修辭",
+      "teacher": "邱梓桓",
+      "credits": "2",
+      "timeText": "3-56",
+      "classroom": "教學608",
+      "department": "通識中心",
+      "courseCategory": "修辭",
+      "className": "資管一乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI801B",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI801B&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI801B",
+      "plainSummary": "本課程以語文的運用及其效果為主軸，期使修課學生掌握文學寫作與應用文書寫作的基本概念。 除了不同文本的寫作手法及作意探析，亦望藉由深入文本，於思索、討論與發表之際，訓練書面 與口語之表達能力，並體會語文即在生活各處。",
+      "grading": [
+        {
+          "item": "課程類別 SDGs目標關 聯性 5:性別平等, 4:優質教育, 學系核心課程能力指標 1.溝通表達 2.人文學養 3.道",
+          "percent": 20,
+          "rawText": "課程類別 SDGs目標關 聯性 5:性別平等, 4:優質教育, 學系核心課程能力指標 1.溝通表達 2.人文學養 3.道德實踐 4.語文表達 課程教學目標 本課程以語文的運用及其效果為主軸，期使修課學生掌握文學寫作與應用文書寫作的基本概念。 除了不同文本的寫作手法及作意探析，亦望藉由深入文本，於思索、討論與發表之際，訓"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5",
+          "percent": 40,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 關懷 人文學養 40%"
+        },
+        {
+          "item": "1.能探索自我的生命價值，促進 自我成長。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作",
+          "percent": 20,
+          "rawText": "1.能探索自我的生命價值，促進 自我成長。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 倫理 道德實踐 20%"
+        },
+        {
+          "item": "1.能養成合宜的價值觀。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報",
+          "percent": 20,
+          "rawText": "1.能養成合宜的價值觀。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 溝通 語文表達 20%"
+        },
+        {
+          "item": "1.與他人交換意見時，彼此都能 相互理解。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作",
+          "percent": null,
+          "rawText": "1.與他人交換意見時，彼此都能 相互理解。 1.出席情形2.隨堂測驗3.課堂內外 的對話、討論與加分項目4.作業 5.作業26.小組：簡報檔7.小組 ：口頭發表8.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-25 ※以課程平台公告為準 課程安排說明、"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "測驗",
+        "討論",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI220D": {
+      "courseCode": "MI220D",
+      "courseName": "資料處理與智慧應用",
+      "teacher": "吳岳穎",
+      "credits": "2",
+      "timeText": "2-8C",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI220D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI220D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI220D",
+      "plainSummary": "培養學生以資料思維為核心，掌握 資料處理、視覺化分析、與智慧應用整合 的能力。課程結合 Microsoft Excel 與 Power BI 兩工具，從資料清理、模型設計到 AI 協助的智慧分析。以實際商業 案例為練習主軸，逐步建立能在",
+      "grading": [
+        {
+          "item": "課程類別 <實作課程><翻轉教學><活動誘發學習> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎",
+          "percent": 60,
+          "rawText": "課程類別 <實作課程><翻轉教學><活動誘發學習> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 課程教學目標 培養學生以資料思維為核心，掌握 資料處理、視覺化分析、與智慧應用整合 的能力。課程"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題。 1.作業2.期中考3.期末考 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 1.作業2.期中考3.期末考 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中累積的經驗 中再學習。 1.作業2.期中考3.期末考 課",
+          "percent": null,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中累積的經驗 中再學習。 1.作業2.期中考3.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 課程介紹 一般教學:講授, 2 2026- 03-03 Excel 核心操作 一般教學:講"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "實作",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI223D": {
+      "courseCode": "MI223D",
+      "courseName": "資料庫設計與實作",
+      "teacher": "俞亭儀",
+      "credits": "2",
+      "timeText": "3-56",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "全英語課程 Lecture in English 全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI223D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI223D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI223D",
+      "plainSummary": "在本課程結束時，學生將能夠： 1. 了解 RDBMS 基礎：描述關聯式資料庫管理系統 (RDBMS) 的基本概念，包括其結構、元件以及 有效管理資料的重要性。 2. 應用資料庫設計原則：培養使用最佳實務設計高效且可擴展的資料庫的技能，重",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二甲資料庫設計與實作 課程計畫 課程代碼 MI223D 授課教師 俞亭儀 課程名稱 資料庫設計與實",
+          "percent": 30,
+          "rawText": "1142 學年度 資管二甲資料庫設計與實作 課程計畫 課程代碼 MI223D 授課教師 俞亭儀 課程名稱 資料庫設計與實作 開課班級 資管二甲 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 全英語課程 Lecture in English 全英語授課(EMI)課程(EMI Course) 授課性質 一般 授"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期末考3.期中考4.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 30,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.作業2.期中考3.報告 實務 應用能力(資 訊與管理) 30%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.期末考3.期中考4.報告 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.作業2.期末考3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "實作",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI234D": {
+      "courseCode": "MI234D",
+      "courseName": "多媒體程式設計",
+      "teacher": "賴錦慧",
+      "credits": "3",
+      "timeText": "4-567",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "重修班修課限雙主修、輔系、重修生、轉系生、轉學生選課。",
+      "opCode": "MI234D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI234D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI234D",
+      "plainSummary": "在各種應用程式或網站中，多媒體內容已成為最不可或缺的一部份，讓不同的資訊類型以更多元 化的方式來呈現，而多媒體的豐富內容更可以透過互動式介面與使用者互動，提升應用程式和網 站的使用性。本課程將以HTML5、JavaScript為主要教學",
+      "grading": [
+        {
+          "item": "課程類別 <程式設計課程><實作課程> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技",
+          "percent": 60,
+          "rawText": "課程類別 <程式設計課程><實作課程> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.應用能力(資訊與管理) 課程教學目標 在各種應用程式或網站中，多媒體內容已成為最不可或缺的一部份，讓不同的資訊類型以更多元 化的方式來呈現，而多媒體的豐富內容更可以透過"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 40,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.平時考3.專題4.專題 實務 應用能力(資 訊與管理) 40%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": null,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.平時考3.專題4.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-26 課程介紹 一般教學:講授3小時, 2 2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "JAVA、Python程式設計",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "實作"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI236D": {
+      "courseCode": "MI236D",
+      "courseName": "網路程式設計",
+      "teacher": "洪智力",
+      "credits": "3",
+      "timeText": "1-234",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI236D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI236D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI236D",
+      "plainSummary": "網路程式設計課程將程式設計從電腦平台，延伸運用在網路與網頁程式設計技術上。課程中使用 動態網頁程式設計技術(如JSP)結合資料庫，建構一個完整的電子商店雛形，並於期末採用分組方 式，架構此電子商店網站雛形，給予同學網頁伺服器管理者及網頁",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二甲網路程式設計 課程計畫 課程代碼 MI236D 授課教師 洪智力 課程名稱 網路程式設計 開課",
+          "percent": 40,
+          "rawText": "1142 學年度 資管二甲網路程式設計 課程計畫 課程代碼 MI236D 授課教師 洪智力 課程名稱 網路程式設計 開課班級 資管二甲 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 3.0 上課地點/時 間 資管201/1-234 學前科目或能 力需"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.平時表現2.測驗3.專題 統整 整合能力(資 訊技術與企業 管理)",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.平時表現2.測驗3.專題 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 1.平時表現2.測驗3.專題 實務 應用能力(資 訊與管理)",
+          "percent": 40,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 1.平時表現2.測驗3.專題 實務 應用能力(資 訊與管理) 40%"
+        },
+        {
+          "item": "1.能從工作或生活中累積的經驗 中再學習。 1.平時表現2.測驗3.專題 課程綱要及進度 週 上課日 課程單元目標及內容",
+          "percent": null,
+          "rawText": "1.能從工作或生活中累積的經驗 中再學習。 1.平時表現2.測驗3.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 網路與網頁程式設計概論1 一般教學:講授 2 2026- 03-02 網路與網頁程式設計概論2 Web server管理 一般教學:講"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "Java",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "測驗",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI244D": {
+      "courseCode": "MI244D",
+      "courseName": "聊天機器人實作",
+      "teacher": "闕豪恩",
+      "credits": "3",
+      "timeText": "5-78C",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI244D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI244D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI244D",
+      "plainSummary": "隨著AI人工智慧技術的進化，聊天機器人(ChatBot)除了可以藉由對話服務客戶，還可以獲取資訊 與行銷。LINE Bot是LINE推出的聊天機器人，由於LINE在台灣有高達1,900萬個用戶，深入每個 年齡層，因此LINE Bot的出",
+      "grading": [
+        {
+          "item": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 ",
+          "percent": 30,
+          "rawText": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 5.有效溝通及團隊執行工作的能力 課程教學目標 隨著AI人工智慧技術"
+        },
+        {
+          "item": "(二) 期末線上測驗",
+          "percent": 30,
+          "rawText": "(二) 期末線上測驗 30%"
+        },
+        {
+          "item": "(三) 平時線上作業/報告",
+          "percent": 40,
+          "rawText": "(三) 平時線上作業/報告 40%"
+        },
+        {
+          "item": "二、 其他上課注意事項：請配合線上教材，完成各項線上測驗、作業或是報告上傳。 成果導向之課程設計 校指標學系能力指標權重",
+          "percent": 20,
+          "rawText": "二、 其他上課注意事項：請配合線上教材，完成各項線上測驗、作業或是報告上傳。 成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數量及語文 能力) 20%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.上機測驗3.專題 統整 整合能力",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.上機測驗3.專題 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 1.作業2.上機測驗3.專題 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.上機測驗3.專題 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能尋找解決問題的方案。 1.作業2.上機測驗3.專",
+          "percent": 20,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能尋找解決問題的方案。 1.作業2.上機測驗3.專題 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.作業2.上機測驗3.專題",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 1.作業2.上機測驗3.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 (補假(和平紀念日)) (補假(和平紀念日)) 2 2026- 03-06 課程簡介 "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "專題",
+        "上機",
+        "測驗",
+        "實作",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI248D": {
+      "courseCode": "MI248D",
+      "courseName": "R程式商業應用",
+      "teacher": "周賢明",
+      "credits": "1",
+      "timeText": "5-1",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "全英語課程 非同步遠距課程 全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI248D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI248D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI248D",
+      "plainSummary": "1. R程式商業應用是目前主流的大數據分析程式語言之一，大量應用在統計、繪圖、與機器學習的 領域上，是兼具學術與商業應用的高階直譯程式語言。 2. 本課程主要是透過幫助學生建立R 程式設計的基本語法、陣列、與資料結構的基礎知識，來培 養",
+      "grading": [
+        {
+          "item": "課程類別 <微型課程><程式設計課程><實作課程><遠距課程(非同步)> SDGs目標關 聯性 4:優質教育, 學系核心",
+          "percent": 25,
+          "rawText": "課程類別 <微型課程><程式設計課程><實作課程><遠距課程(非同步)> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 課程教學目標 1. R程式商業應用是目前主流的大數據分"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.期末考 統整 整合能力",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.期末考 統整 整合能力(資 訊技術與企業 管理) 25%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.期末考 實務 ",
+          "percent": 25,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.期末考 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能累積從工作或生活中所獲得 的新經驗。 1.作業2.期中考3.期末考 創",
+          "percent": 25,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能累積從工作或生活中所獲得 的新經驗。 1.作業2.期中考3.期末考 創新 創意及創業能 力 25%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.期末考 課程綱要及進度 週 上課",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 補假(和平紀念日)放假 【目標】課程介紹 【內容】課程大綱與評量方式等 補假(和平紀念日)放 假 一般教學:講授"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "沒有修過R相關課程",
+      "courseOutputs": [
+        "作業",
+        "實作",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI249D": {
+      "courseCode": "MI249D",
+      "courseName": "人工智慧R語言",
+      "teacher": "周賢明",
+      "credits": "1",
+      "timeText": "5-2",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "全英語課程 非同步遠距課程 全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI249D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI249D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI249D",
+      "plainSummary": "1. 人工智慧R語言是目前主流的大數據分析程式語言之一，大量應用在統計、繪圖、與機器學習的 領域上，是兼具學術與人工智慧應用的高階直譯程式語言。 2. 本課程主要是透過幫助學生建立R 程式設計的基本語法、陣列、與資料結構的基礎知識，來培",
+      "grading": [
+        {
+          "item": "課程類別 <微型課程><程式設計課程><實作課程><遠距課程(非同步)> SDGs目標關 聯性 4:優質教育, 學系核心",
+          "percent": 25,
+          "rawText": "課程類別 <微型課程><程式設計課程><實作課程><遠距課程(非同步)> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 課程教學目標 1. 人工智慧R語言是目前主流的大數據分"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.期末考 統整 整合能力",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.期末考 統整 整合能力(資 訊技術與企業 管理) 25%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.期末考 實務 ",
+          "percent": 25,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.期末考 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能累積從工作或生活中所獲得 的新經驗。 1.作業2.期中考3.期末考 創",
+          "percent": 25,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能累積從工作或生活中所獲得 的新經驗。 1.作業2.期中考3.期末考 創新 創意及創業能 力 25%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.期末考 課程綱要及進度 週 上課",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 補假(和平紀念日) 【目標】課程介紹 【內容】課程大綱與評量方式等 補假(和平紀念日) 一般教學:講授,討論 補"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "沒有修過R相關課程",
+      "courseOutputs": [
+        "作業",
+        "討論",
+        "實作",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI375D": {
+      "courseCode": "MI375D",
+      "courseName": "生產管理",
+      "teacher": "黃悠福",
+      "credits": "2",
+      "timeText": "4-56",
+      "classroom": "教學401",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI375D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI375D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI375D",
+      "plainSummary": "1.理解營運管理的基本原則與核心概念，包括流程設計、產能規劃、品質管理與供應鏈協調。 (Understand the fundamental principles and key concepts of Operations Manag",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二甲生產管理 課程計畫 課程代碼 MI375D 授課教師 黃悠福 課程名稱 生產管理 開課班級 資",
+          "percent": 55,
+          "rawText": "1142 學年度 資管二甲生產管理 課程計畫 課程代碼 MI375D 授課教師 黃悠福 課程名稱 生產管理 開課班級 資管二甲 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 全英語授課(EMI)課程(EMI Course) 授課性質 一般 授課語言 英語 人數上限 70 開課時數 2.0 上課地點/時 間 "
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 15,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期中考3.專題 統整 整合能力(資 訊技術與企業 管理) 15%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 15,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.期中考2.專題 實務 應用能力(資 訊與管理) 15%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 15,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.期中考2.專題 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新局面。 5.能以提問的方式釐清問題本質 。 6.能尋找解決問題的方案。 7.能分析各種解決問題方案的優 、缺點。 8.能在所學領域上實際展開行動 。 9.能在所學領域上發展新方向。 1.作業2.專題 "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI560D": {
+      "courseCode": "MI560D",
+      "courseName": "資料庫管理",
+      "teacher": "廖慶榮",
+      "credits": "3",
+      "timeText": "2-567",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI560D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI560D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI560D",
+      "plainSummary": "這個課程的目標主要是教導同學資料庫系統設計的基本觀念。完成本課程後，我們應該能夠達到 下列目標： 1.能了解資料庫的基本觀念 2.能了解資料庫管理系統的基本觀念 3.能了解應用程式的資料庫設計 4.能了解使用在資料庫系統實作的基本技術 ",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二甲資料庫管理 課程計畫 課程代碼 MI560D 授課教師 廖慶榮 課程名稱 資料庫管理 開課班級",
+          "percent": 55,
+          "rawText": "1142 學年度 資管二甲資料庫管理 課程計畫 課程代碼 MI560D 授課教師 廖慶榮 課程名稱 資料庫管理 開課班級 資管二甲 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 68 開課時數 3.0 上課地點/時 間 資管201/2-567 學前科目或能 力需求 "
+        },
+        {
+          "item": "1.能將專業知識融會貫通，統合 成完整的知識。 2.能用所學的專業知識解答相關 問題。 1.資料庫管理專題的資料庫設計 ",
+          "percent": 15,
+          "rawText": "1.能將專業知識融會貫通，統合 成完整的知識。 2.能用所學的專業知識解答相關 問題。 1.資料庫管理專題的資料庫設計 進度報告2.課堂討論互動3.期中考 4.資料庫管理專題的資料庫設計 報告5.期末考6.資料庫管理專題 統整 整合能力(資 訊技術與企業 管理) 15%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.學習腳蹤2.資料庫管理專題的資 ",
+          "percent": 15,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.學習腳蹤2.資料庫管理專題的資 料庫設計報告3.資料庫管理專題 實務 應用能力(資 訊與管理) 15%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 1.期中考2.資料庫管理專題的資料 庫設計報告3.資料庫管理專題 創新 創意",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 1.期中考2.資料庫管理專題的資料 庫設計報告3.資料庫管理專題 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能以提問的方式釐清問題本質 。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.課堂討論互",
+          "percent": null,
+          "rawText": "1.能以提問的方式釐清問題本質 。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.課堂討論互動2.期末考3.資料庫 管理專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 資料庫管理課程介紹 課程單元目標： 1.能了解資料庫管"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "資料結構",
+      "courseOutputs": [
+        "報告",
+        "專題",
+        "討論",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI702D": {
+      "courseCode": "MI702D",
+      "courseName": "實用英文（二）",
+      "teacher": "呂文琪",
+      "credits": "1",
+      "timeText": "5-56",
+      "classroom": "教學405B",
+      "department": "語言中心",
+      "courseCategory": "一般",
+      "className": "資管二甲",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "課程為混系上課，且學生已通過本校英檢畢業門檻。 A mixed-department class, and the students have met English proficiency requirement for graduation. EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI702D",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI702D&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI702D",
+      "plainSummary": "由世界流行單元主題，逐步累積閱讀、聽力、口說、寫作、生活情境、文法及字彙。引導學生從 自身觀點出發，將所學內化，結合生活經驗深入討論主題。透過互動分享，讓學生親自用英語溝 通、縮短距離。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二甲實用英文（二） 課程計畫 課程代碼 MI702D 授課教師 呂文琪 課程名稱 實用英文（二） ",
+          "percent": 50,
+          "rawText": "1142 學年度 資管二甲實用英文（二） 課程計畫 課程代碼 MI702D 授課教師 呂文琪 課程名稱 實用英文（二） 開課班級 資管二甲 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 課程為混系上課，且學生已通過 本校英檢畢業門檻。 A mixed-department class, and the st"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.作業3.線上測驗(共",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 )4.英文履歷5.報告6.專題 專業 外語聽說能力20%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 )4",
+          "percent": 10,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 )4.英文履歷5.報告6.專題 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能運用所學，形成一套屬於自 己的見解。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 ",
+          "percent": 10,
+          "rawText": "1.能運用所學，形成一套屬於自 己的見解。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 )4.英文履歷5.報告6.專題 實務 實務應用能力10%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.問答2.作業3.線上測驗(共",
+          "percent": 10,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.問答2.作業3.線上測驗(共4次 TOEIC、通過CEFR B2拿滿分 )4.英文履歷5.報告6.專題 溝通 合作與溝通能 力 10%"
+        },
+        {
+          "item": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.問答2.作業3.英文履歷4.",
+          "percent": null,
+          "rawText": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.問答2.作業3.英文履歷4.報告 5.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 Holiday 2 2026- 03-06 課程介紹 Syllabus "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "專題",
+        "測驗"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI236E": {
+      "courseCode": "MI236E",
+      "courseName": "網路程式設計",
+      "teacher": "洪智力",
+      "credits": "3",
+      "timeText": "1-567",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI236E",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI236E&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI236E",
+      "plainSummary": "網路程式設計課程將程式設計從電腦平台，延伸運用在網路與網頁程式設計技術上。課程中使用 動態網頁程式設計技術(如JSP)結合資料庫，建構一個完整的電子商店雛形，並於期末採用分組方 式，架構此電子商店網站雛形，給予同學網頁伺服器管理者及網頁",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙網路程式設計 課程計畫 課程代碼 MI236E 授課教師 洪智力 課程名稱 網路程式設計 開課",
+          "percent": 40,
+          "rawText": "1142 學年度 資管二乙網路程式設計 課程計畫 課程代碼 MI236E 授課教師 洪智力 課程名稱 網路程式設計 開課班級 資管二乙 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 3.0 上課地點/時 間 資管201/1-567 學前科目或能 力需"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.平時表現2.測驗3.專題 統整 整合能力(資 訊技術與企業 管理)",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.平時表現2.測驗3.專題 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 1.平時表現2.測驗3.專題 實務 應用能力(資 訊與管理)",
+          "percent": 40,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 1.平時表現2.測驗3.專題 實務 應用能力(資 訊與管理) 40%"
+        },
+        {
+          "item": "1.能從工作或生活中累積的經驗 中再學習。 1.平時表現2.測驗3.專題 課程綱要及進度 週 上課日 課程單元目標及內容",
+          "percent": null,
+          "rawText": "1.能從工作或生活中累積的經驗 中再學習。 1.平時表現2.測驗3.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 網路與網頁程式設計概論1 一般教學:講授 2 2026- 03-02 網路與網頁程式設計概論2 Web server管理 一般教學:講"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "Java",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "測驗",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI292E": {
+      "courseCode": "MI292E",
+      "courseName": "計算機科學概論",
+      "teacher": "俞亭儀",
+      "credits": "2",
+      "timeText": "1-8C",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "非同步遠距課程 Non-synchronous 全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI292E",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI292E&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI292E",
+      "plainSummary": "在本課程結束時，學生將能夠： 1. 了解計算的核心概念：對計算有基本的了解，包括其歷史、演變和基本原理。 2. 探索資料基礎：描述基本的資料儲存和資料操作概念，包括二進位表示、資料類型和資料處理 技術。 3. 掌握作業系統和網路：解釋作",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙計算機科學概論 課程計畫 課程代碼 MI292E 授課教師 俞亭儀 課程名稱 計算機科學概論 ",
+          "percent": 30,
+          "rawText": "1142 學年度 資管二乙計算機科學概論 課程計畫 課程代碼 MI292E 授課教師 俞亭儀 課程名稱 計算機科學概論 開課班級 資管二乙 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 非同步遠距課程 Non- synchronous 全英語授課(EMI)課 程(EMI Course) 授課性質 一般 授課"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期末考3.上機測驗4.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 30,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.作業2.期末考3.上機測驗4.報告 實務 應用能力(資 訊與管理) 30%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.期末考3.上機測驗4.報告 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.作業2.期末考3.上機測驗4.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 202"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "上機",
+        "測驗",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI293E": {
+      "courseCode": "MI293E",
+      "courseName": "人工智慧與Python 概論",
+      "teacher": "俞亭儀",
+      "credits": "2",
+      "timeText": "3-78",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI293E",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI293E&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI293E",
+      "plainSummary": "在本課程結束時，學生將能夠： 1. 了解人工智慧 (AI) 的核心概念：對人工智慧、其歷史、關鍵原理以及在各個領域的應用有基本 的了解。 2. 探索實際用例和應用：確定人工智慧的基本用例並了解其在現實場景中的相關性，特別是在增 強業務、",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙人工智慧與Python 概論 課程計畫 課程代碼 MI293E 授課教師 俞亭儀 課程名稱 人",
+          "percent": 30,
+          "rawText": "1142 學年度 資管二乙人工智慧與Python 概論 課程計畫 課程代碼 MI293E 授課教師 俞亭儀 課程名稱 人工智慧與Python 概論 開課班級 資管二乙 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 全英語授課(EMI)課程(EMI Course) 授課性質 一般 授課語言 英語 人數上限 6"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.期末考3.上機測驗4.專題 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 30,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能尋求外在資源，以面對新情 境。 1.作業2.期末考3.上機測驗4.專題 實務 應用能力(資 訊與管理) 30%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.期末考3.上機測驗4.專題 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.作業2.期末考3.上機測驗4.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 202"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "上機",
+        "測驗",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI560E": {
+      "courseCode": "MI560E",
+      "courseName": "資料庫管理",
+      "teacher": "洪智力",
+      "credits": "3",
+      "timeText": "2-234",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI560E",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI560E&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI560E",
+      "plainSummary": "資料庫管理課程介紹修課學生資料庫管理系統(DBMS)的概念、實作與應用，課程內容包含資料庫 環境、資料庫分析與設計、資料表正規化、結構化查詢語言(SQL)、觸發器、預存程序和實作。本 課程特別重視資安議題，如建立資料庫交易紀錄表格和防止",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙資料庫管理 課程計畫 課程代碼 MI560E 授課教師 洪智力 課程名稱 資料庫管理 開課班級",
+          "percent": 55,
+          "rawText": "1142 學年度 資管二乙資料庫管理 課程計畫 課程代碼 MI560E 授課教師 洪智力 課程名稱 資料庫管理 開課班級 資管二乙 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 65 開課時數 3.0 上課地點/時 間 資管201/2-234 學前科目或能 力需求 "
+        },
+        {
+          "item": "1.能將專業知識融會貫通，統合 成完整的知識。 1.平常表現2.期中考3.專題 統整 整合能力(資 訊技術與企業 管理)",
+          "percent": 15,
+          "rawText": "1.能將專業知識融會貫通，統合 成完整的知識。 1.平常表現2.期中考3.專題 統整 整合能力(資 訊技術與企業 管理) 15%"
+        },
+        {
+          "item": "1.能運用所學，形成一套屬於自 己的見解。 1.平常表現2.期中考3.專題 實務 應用能力(資 訊與管理)",
+          "percent": 15,
+          "rawText": "1.能運用所學，形成一套屬於自 己的見解。 1.平常表現2.期中考3.專題 實務 應用能力(資 訊與管理) 15%"
+        },
+        {
+          "item": "1.能從工作或生活中累積的經驗 中再學習。 1.平常表現2.期中考3.專題 創新 創意及創業能 力",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中累積的經驗 中再學習。 1.平常表現2.期中考3.專題 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能在所學領域上實際展開行動 。 1.平常表現2.期中考3.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學",
+          "percent": null,
+          "rawText": "1.能在所學領域上實際展開行動 。 1.平常表現2.期中考3.專題 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 資料庫緒論 1 一般教學:講授, 2 2026- 03-03 資料庫緒論 2 一般教學:講授, 作業, 3 2026- 03-10 結構化查"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "程式設計",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "測驗",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI702E": {
+      "courseCode": "MI702E",
+      "courseName": "實用英文（二）",
+      "teacher": "鍾夙怡",
+      "credits": "1",
+      "timeText": "5-56",
+      "classroom": "懷恩105",
+      "department": "語言中心",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "課程為混系上課，且學生已通過本校英檢畢業門檻。 A mixed-department class, and the students have met English proficiency requirement for graduation. EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI702E",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI702E&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI702E",
+      "plainSummary": "本課程的主要目的在於提升學生的英文能力、建立學生嚴謹的思維和溝通技巧。課程使用的教材 將生活中常用的英文單字、片語和慣用語融入不同的單元主題，並藉由互動式的教學活動、分組 活動和報告，加上課堂討論提供學生大量聽說讀寫英文的機會。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙實用英文（二） 課程計畫 課程代碼 MI702E 授課教師 鍾夙怡 課程名稱 實用英文（二） ",
+          "percent": 50,
+          "rawText": "1142 學年度 資管二乙實用英文（二） 課程計畫 課程代碼 MI702E 授課教師 鍾夙怡 課程名稱 實用英文（二） 開課班級 資管二乙 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 課程為混系上課，且學生已通過 本校英檢畢業門檻。 A mixed-department class, and the st"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.課堂參與2.出席率,作業3.",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗6.英文 履歷7.期中考8.期末考 專業 外語聽說能力20%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗",
+          "percent": 10,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗6.英文 履歷7.期中考8.期末考 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能運用所學，形成一套屬於自 己的見解。 2.能尋求外在資源，以面對新情 境。 1.課堂參與2.出席率,作業3.平時考",
+          "percent": 10,
+          "rawText": "1.能運用所學，形成一套屬於自 己的見解。 2.能尋求外在資源，以面對新情 境。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗6.英文 履歷7.期中考8.期末考 實務 實務應用能力10%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.課堂參與2.出席率,作業3.",
+          "percent": 10,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗6.英文 履歷7.期中考8.期末考 溝通 合作與溝通能 力 10%"
+        },
+        {
+          "item": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.課堂參與2.出席率,作業3.",
+          "percent": null,
+          "rawText": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.課堂參與2.出席率,作業3.平時考 4.Presentation5.線上測驗6.英文 履歷7.期中考8.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 No"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "測驗",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI702F": {
+      "courseCode": "MI702F",
+      "courseName": "實用英文（二）",
+      "teacher": "袁怡雯",
+      "credits": "1",
+      "timeText": "5-56",
+      "classroom": "教學405A",
+      "department": "語言中心",
+      "courseCategory": "一般",
+      "className": "資管二乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "課程為混系上課 A mixed-department class",
+      "opCode": "MI702F",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI702F&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI702F",
+      "plainSummary": "本課程期望學生達成以下目標： 1. 學習到正確國際英語會話常用字彙、片語與句型。 2. 熟悉國際環境，引導學生適當運用國際英文彼此溝通。 3. 增強學生學習TOEIC的動機，進而通過多益考試750分檢定。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管二乙實用英文（二） 課程計畫 課程代碼 MI702F 授課教師 袁怡雯 課程名稱 實用英文（二） ",
+          "percent": 20,
+          "rawText": "1142 學年度 資管二乙實用英文（二） 課程計畫 課程代碼 MI702F 授課教師 袁怡雯 課程名稱 實用英文（二） 開課班級 資管二乙 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 課程為混系上課 A mixed- department class 授課性質 一般 授課語言 中文 人數上限 45 開課時"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.出缺勤/回答問題2.英文履歷",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 專業 外語聽說能力20%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 統整 ",
+          "percent": 10,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 統整 統整與應變能 力 10%"
+        },
+        {
+          "item": "1.能運用所學，形成一套屬於自 己的見解。 2.能尋求外在資源，以面對新情 境。 1.出缺勤/回答問題2.英文履歷表 3",
+          "percent": 10,
+          "rawText": "1.能運用所學，形成一套屬於自 己的見解。 2.能尋求外在資源，以面對新情 境。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 實務 實務應用能力10%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.出缺勤/回答問題2.英文履歷",
+          "percent": 10,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 溝通 合作與溝通能 力 10%"
+        },
+        {
+          "item": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.出缺勤/回答問題2.英文履歷",
+          "percent": null,
+          "rawText": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.出缺勤/回答問題2.英文履歷表 3.線上測驗4.小考5.測驗6.測驗 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 National Holiday 2 2026"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "N/A",
+      "courseOutputs": [
+        "作業",
+        "測驗"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI032G": {
+      "courseCode": "MI032G",
+      "courseName": "深度學習概論",
+      "teacher": "張顥瀚",
+      "credits": "3",
+      "timeText": "2-234",
+      "classroom": "商學103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI032G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI032G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI032G",
+      "plainSummary": "本課程致力於提供全面的深度學習介紹，並將其應用於金融與財務領域。 除了深入探討深度學習 的基礎理論外，我們著重於如何將這些理論應用於實際的金融問題解決方案。 學生將學習多種深 度學習模型，從基本的神經網路到更複雜的捲積神經網路和遞歸神經",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲深度學習概論 課程計畫 課程代碼 MI032G 授課教師 張顥瀚 課程名稱 深度學習概論 開課",
+          "percent": 20,
+          "rawText": "1142 學年度 資管三甲深度學習概論 課程計畫 課程代碼 MI032G 授課教師 張顥瀚 課程名稱 深度學習概論 開課班級 資管三甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 60 開課時數 3.0 上課地點/時 間 商學103/2-234 學前科目或能 力需"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題。 1.問答2.出席3.作業4.測驗5.團體 討論6.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.問答2.出席3.作業4.測驗5.團體 討論6.報告 實務 應用能力(資 訊與管理) "
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.問答2.出席3.作業4.測驗5.團體 討論6.報告 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新",
+          "percent": 20,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 3.能突破既有的思維或觀念。 4.能在所學領域上創造新局面。 5.能以提問的方式釐清問題本質 。 6.能尋找解決問題的方案。 7.能分析各種解決問題方案的優 、缺點。 8.能在所學領域上實際展開行動 。 9.能在所學領域上發展新方向。 1.問答2.出席3"
+        },
+        {
+          "item": "1.與他人交換意見時，彼此都能 相互理解。 2.與他人交談時，對方能瞭解我 所要傳達的訊息。 3.與他人溝通時，能暸解對",
+          "percent": null,
+          "rawText": "1.與他人交換意見時，彼此都能 相互理解。 2.與他人交談時，對方能瞭解我 所要傳達的訊息。 3.與他人溝通時，能暸解對方所 要傳達的訊息。 4.在團體活動中，能明確表達個 人意見。。 1.問答2.出席3.作業4.測驗5.團體 討論6.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "測驗",
+        "討論",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI033G": {
+      "courseCode": "MI033G",
+      "courseName": "進階資訊管理簡介",
+      "teacher": "俞亭儀",
+      "credits": "2",
+      "timeText": "1-34",
+      "classroom": "教學402",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "選修",
+      "language": "英語",
+      "quota": "0",
+      "note": "非同步遠距課程 Non-synchronous ,全英語授課(EMI)課程(EMI Course)",
+      "opCode": "MI033G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI033G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI033G",
+      "plainSummary": "本課程全面探索現代企業如何運用科技、數據和數位化策略推動成功。課程首先檢視商業智慧的 基礎知識，學生將學習企業如何將原始數據轉化為可執行的洞察，從而做出更明智的決策。隨後 ，課程深入探討電信和互聯網技術，揭示網路、無線系統和雲端運算如何",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲進階資訊管理簡介 課程計畫 課程代碼 MI033G 授課教師 俞亭儀 課程名稱 進階資訊管理簡",
+          "percent": 30,
+          "rawText": "1142 學年度 資管三甲進階資訊管理簡介 課程計畫 課程代碼 MI033G 授課教師 俞亭儀 課程名稱 進階資訊管理簡介 開課班級 資管三甲 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 非同步遠距課程 Non- synchronous ,全英語授課 (EMI)課程(EMI Course) 授課性質 一般"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.報告3.期中考4.期末考 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 30,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能調整心態面對新情境。 5.能尋求人際支持，以面對新情 境。 6.能尋求外在資源，以面對新情 境。 1.作業2.報告3.期中考4.期末考 實務 應用能力(資 訊與管理) 30%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.報告3.期中考4.期末考 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.作業2.報告3.期中考4.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI267G": {
+      "courseCode": "MI267G",
+      "courseName": "作業系統",
+      "teacher": "廖慶榮",
+      "credits": "3",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "全學期非同步遠距課程，無線上同步、無實體到校面授。Asynchronous Distance Courses, no physical face-to-face teaching for the entire semester.",
+      "opCode": "MI267G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI267G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI267G",
+      "plainSummary": "這門課程主要詳細描述作業系統的理論與實務，除了探討作業系統的理論與發展之外，也會討論 幾個最常見的作業系統，例如Windows和Linux等；也會了解最新手機的作業系統是如何運行 ，最後實作出一個微型的作業系統。完成本課程，我們應該能夠",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲作業系統 課程計畫 課程代碼 MI267G 授課教師 廖慶榮 課程名稱 作業系統 開課班級 資",
+          "percent": 50,
+          "rawText": "1142 學年度 資管三甲作業系統 課程計畫 課程代碼 MI267G 授課教師 廖慶榮 課程名稱 作業系統 開課班級 資管三甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 全學期非同步遠距課程，無線上 同步、無實體到校面授。 Asynchronous Distance Courses, no physic"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題",
+          "percent": 20,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 3.能用所學的專業知識解答相關 問題。 1.測驗2.學習腳蹤3.微型作業系統 實作4.期中考5.期末考 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能運用所學，形成一套屬於自 己的見解。 1.測驗2.微型作業系統實作3.期",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能運用所學，形成一套屬於自 己的見解。 1.測驗2.微型作業系統實作3.期中 考4.期末考 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 1.微型作業系統實作2.期中考3.期 末考 創新 創意及創業能 力",
+          "percent": 10,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 1.微型作業系統實作2.期中考3.期 末考 創新 創意及創業能 力 10%"
+        },
+        {
+          "item": "1.能突破既有的思維或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能在所學領域上實際展開",
+          "percent": null,
+          "rawText": "1.能突破既有的思維或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能在所學領域上實際展開行動 。 1.線上議題討論2.微型作業系統實 作 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 作業系統簡介（Introducing "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "測驗",
+        "討論",
+        "實作",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI340G": {
+      "courseCode": "MI340G",
+      "courseName": "軟體專案管理",
+      "teacher": "劉士豪",
+      "credits": "3",
+      "timeText": "3-2",
+      "classroom": "資管103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI340G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI340G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI340G",
+      "plainSummary": "培養學生熟悉軟體系統開發專案所使用之各項技術與工具，並且能夠實際使用這些工具與技術完 成資訊系統開發之專案管控作業",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲軟體專案管理 課程計畫 課程代碼 MI340G 授課教師 劉士豪 課程名稱 軟體專案管理 開課",
+          "percent": 20,
+          "rawText": "1142 學年度 資管三甲軟體專案管理 課程計畫 課程代碼 MI340G 授課教師 劉士豪 課程名稱 軟體專案管理 開課班級 資管三甲 學分 3 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 3.0 上課地點/時 間 資管103/3-2 資管103/5-12 "
+        },
+        {
+          "item": "期中報告",
+          "percent": 25,
+          "rawText": "期中報告：25%"
+        },
+        {
+          "item": "期末報告",
+          "percent": 30,
+          "rawText": "期末報告：30%"
+        },
+        {
+          "item": "成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數",
+          "percent": 20,
+          "rawText": "成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎能力(資 訊技術、管理 、數量及語文 能力) 20%"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.作業 統整 整合能力(資 訊技術與企業 管理)",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.作業 統整 整合能力(資 訊技術與企業 管理) 25%"
+        },
+        {
+          "item": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 1.報告2.報告 實務 應用能力(資 訊與管",
+          "percent": 20,
+          "rawText": "1.能尋求人際支持，以面對新情 境。 2.能尋求外在資源，以面對新情 境。 1.報告2.報告 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 3.能累積從工作或生活中所獲得 ",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 3.能累積從工作或生活中所獲得 的新經驗。 1.報告2.報告 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.問答2.報告3.報告 課程綱",
+          "percent": null,
+          "rawText": "1.在團體活動中，能明確表達個 人意見。。 2.與他人交換意見時，彼此都能 相互理解。 1.問答2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-25 軟體專案管理 講授,討論, 作業 1 2026- 02-27 軟體專案管理 講授,討論, 作業"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "討論",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI349G": {
+      "courseCode": "MI349G",
+      "courseName": "IOS應用程式開發",
+      "teacher": "謝周熾",
+      "credits": "3",
+      "timeText": "1-8CD",
+      "classroom": "資管301",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI349G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI349G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI349G",
+      "plainSummary": "訓練同學認識 iOS 平台的開發工具、程式語言、基本 UI 元件以及相關開發 iOS 應用程式所需具 備的入門知識。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲IOS應用程式開發 課程計畫 課程代碼 MI349G 授課教師 謝周熾 課程名稱 IOS應用程",
+          "percent": 40,
+          "rawText": "1142 學年度 資管三甲IOS應用程式開發 課程計畫 課程代碼 MI349G 授課教師 謝周熾 課程名稱 IOS應用程式開發 開課班級 資管三甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 30 開課時數 3.0 上課地點/時 間 資管301/1-8CD 學前科"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 60,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.報告 實務 應用能力(資 訊與管理) 60%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": null,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.作業2.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 iOS 課程介紹 講授,討論,實作, 作業,報告, 2 2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "討論",
+        "實作"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI369G": {
+      "courseCode": "MI369G",
+      "courseName": "財務管理資訊系統",
+      "teacher": "劉洪鈞",
+      "credits": "3",
+      "timeText": "2-567",
+      "classroom": "資管103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "4管選2管，上下學期各開2管",
+      "opCode": "MI369G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI369G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI369G",
+      "plainSummary": "本課程教學目標如下: (1)財務管理基本原理 (2)系統化的證券分析技術 (3)金融資訊系統 (4)投資社群網絡與理財app. (5)交易心理與邏輯交易策略 (6)實務投資",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲財務管理資訊系統 課程計畫 課程代碼 MI369G 授課教師 劉洪鈞 課程名稱 財務管理資訊系",
+          "percent": 40,
+          "rawText": "1142 學年度 資管三甲財務管理資訊系統 課程計畫 課程代碼 MI369G 授課教師 劉洪鈞 課程名稱 財務管理資訊系統 開課班級 資管三甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 4管選2管，上下學期各開2管 授課性質 一般 授課語言 中文 人數上限 60 開課時數 3.0 上課地點/時 間 資管"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.作業2.出席3.期中考4.期末考 統整 整合能力(資 訊技術與企業 管理) 25%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的",
+          "percent": 25,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 3.能運用所學，形成一套屬於自 己的見解。 4.能尋求外在資源，以面對新情 境。 1.作業2.出席3.期中考4.期末考 創新 創意及創業能 力 25%"
+        },
+        {
+          "item": "1.能分析各種解決問題方案的優 、缺點。 2.能在所學領域上實際展開行動 。 3.能在所學領域上發展新方向。 4.能以提",
+          "percent": 10,
+          "rawText": "1.能分析各種解決問題方案的優 、缺點。 2.能在所學領域上實際展開行動 。 3.能在所學領域上發展新方向。 4.能以提問的方式釐清問題本質 。 5.能尋找解決問題的方案。 6.能提出新的想法或觀念。 7.能將自己既有的觀念加上新思 維。 8.能突破既有的思維或觀念。 9.能在所學領域上創造新局面。 1.作業2.出席3"
+        },
+        {
+          "item": "1.面對壓力時，能接受挑戰而不 退縮。 2.面對壓力時，能以冷靜的態度 因應。 3.能以積極主動的態度面對壓力 。 4.",
+          "percent": null,
+          "rawText": "1.面對壓力時，能接受挑戰而不 退縮。 2.面對壓力時，能以冷靜的態度 因應。 3.能以積極主動的態度面對壓力 。 4.面對壓力時，能保持彈性、變 通。 1.作業2.出席3.期中考4.期末考 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-24 課程簡介 一般教"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI373G": {
+      "courseCode": "MI373G",
+      "courseName": "商業英語會話(二)",
+      "teacher": "賴曉雯",
+      "credits": "1",
+      "timeText": "1-56",
+      "classroom": "教學402",
+      "department": "商學院",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "此為商學院全系必修課（不含國際學程）This is a required course for all departments in the College of Business (excluding international programs) EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI373G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373G",
+      "plainSummary": "The objective of this course is to train students' speaking and conversation abilities for business.Vocabulary, idioms",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲商業英語會話(二) 課程計畫 課程代碼 MI373G 授課教師 賴曉雯 課程名稱 商業英語會話",
+          "percent": 30,
+          "rawText": "1142 學年度 資管三甲商業英語會話(二) 課程計畫 課程代碼 MI373G 授課教師 賴曉雯 課程名稱 商業英語會話(二) 開課班級 資管三甲 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 此為商學院全系必修課（不含國 際學程）This is a required course for all depa"
+        },
+        {
+          "item": "2. 期末報告",
+          "percent": 30,
+          "rawText": "2. 期末報告: 30%"
+        },
+        {
+          "item": "3. 在i-learning上繳交作業",
+          "percent": 40,
+          "rawText": "3. 在i-learning上繳交作業: 40%"
+        },
+        {
+          "item": "Class rules: 1. Attendance is mandatory. 2. Eating or sleepi",
+          "percent": 30,
+          "rawText": "Class rules: 1. Attendance is mandatory. 2. Eating or sleeping is not allowed in class. 3. Keep cell phones off during the class. 4. Come to class with your han"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.平時考2.上課參與和出席3.",
+          "percent": 35,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.平時考2.上課參與和出席3.期中 考4.期末考 實務 應用能力(資 訊與管理) 35%"
+        },
+        {
+          "item": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.平時考2.上課參與和出席3.",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中獲得新的經 驗或體驗。 2.能從工作或生活中累積的經驗 中再學習。 1.平時考2.上課參與和出席3.期末 考4.口語報告 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能分析各種解決問題方案的",
+          "percent": 20,
+          "rawText": "1.能提出新的想法或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能分析各種解決問題方案的優 、缺點。 5.能在所學領域上實際展開行動 。 1.上機測驗2.上課參與和出席 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.期中考2.口語報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "上機",
+        "測驗",
+        "期中評量",
+        "期末評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI373I": {
+      "courseCode": "MI373I",
+      "courseName": "商業英語會話(二)",
+      "teacher": "鄒明達",
+      "credits": "1",
+      "timeText": "1-56",
+      "classroom": "教學405B",
+      "department": "商學院",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "此為商學院全系必修課（不含國際學程）This is a required course for all departments in the College of Business (excluding international programs) EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI373I",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373I&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373I",
+      "plainSummary": "This course aims to enhance students' English speaking skills through discussion of various topics, role-playing and s",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲商業英語會話(二) 課程計畫 課程代碼 MI373I 授課教師 鄒明達 課程名稱 商業英語會話",
+          "percent": 30,
+          "rawText": "1142 學年度 資管三甲商業英語會話(二) 課程計畫 課程代碼 MI373I 授課教師 鄒明達 課程名稱 商業英語會話(二) 開課班級 資管三甲 學分 1 必／選修別 必修 全/半學年 半學年 選課備註 此為商學院全系必修課（不含國 際學程）This is a required course for all depa"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 1.出席2.作業13.作業24.口說5.口 說6.聽力 實務 應用能力(資 訊與",
+          "percent": 35,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 1.出席2.作業13.作業24.口說5.口 說6.聽力 實務 應用能力(資 訊與管理) 35%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 1.出席2.作業13.作業24.口說5.口 說6.聽力 創新 創意及創業能 ",
+          "percent": 15,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 1.出席2.作業13.作業24.口說5.口 說6.聽力 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 1.出席2.作業13.作業24.口說5.口 說6.聽力 溝通 有效溝通及團 隊執行工作的 能",
+          "percent": 20,
+          "rawText": "1.能提出新的想法或觀念。 1.出席2.作業13.作業24.口說5.口 說6.聽力 溝通 有效溝通及團 隊執行工作的 能力 20%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.出席2.作業13.作業24.口說5.口 說6.聽力 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) "
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "作業"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI509G": {
+      "courseCode": "MI509G",
+      "courseName": "資訊與法律",
+      "teacher": "陳衍華",
+      "credits": "2",
+      "timeText": "5-78",
+      "classroom": "教學517",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI509G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI509G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI509G",
+      "plainSummary": "以實務發展及相關法律與案例說明討論，協助同學了解資訊應用與法律之間的關聯性，並強化同 學對於資訊相關法律的認知",
+      "grading": [
+        {
+          "item": "1142 學年度 資管三甲資訊與法律 課程計畫 課程代碼 MI509G 授課教師 陳衍華 課程名稱 資訊與法律 開課班級",
+          "percent": 35,
+          "rawText": "1142 學年度 資管三甲資訊與法律 課程計畫 課程代碼 MI509G 授課教師 陳衍華 課程名稱 資訊與法律 開課班級 資管三甲 學分 2 必／選修別 必修 全/半學年 半學年 選課備註 授課性質 一般 授課語言 中文 人數上限 70 開課時數 2.0 上課地點/時 間 教學517/5-78 學前科目或能 力需求 無"
+        },
+        {
+          "item": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.作業3.Quiz, Te",
+          "percent": 30,
+          "rawText": "1.能分析專業科目之間的關聯性 。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.作業3.Quiz, Test4.期中 考5.報告 實務 應用能力(資 訊與管理) 30%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.問答2.作業3.Quiz, ",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.問答2.作業3.Quiz, Test4.期中 考5.報告 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能分析各種解決問題方案的",
+          "percent": 15,
+          "rawText": "1.能提出新的想法或觀念。 2.能以提問的方式釐清問題本質 。 3.能尋找解決問題的方案。 4.能分析各種解決問題方案的優 、缺點。 5.能在所學領域上發展新方向。 1.問答2.作業3.Quiz, Test4.期中 考5.報告 倫理 理解專業倫理 及社會責任之 能力 15%"
+        },
+        {
+          "item": "1.能養成合宜的價值觀。 2.能自發性地展現合宜的社會規 範行為。 3.能明辨是非善惡。 1.問答2.作業3.Quiz,",
+          "percent": null,
+          "rawText": "1.能養成合宜的價值觀。 2.能自發性地展現合宜的社會規 範行為。 3.能明辨是非善惡。 1.問答2.作業3.Quiz, Test4.期中 考5.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 228假日 2 2026- 03-06 課程內容說明、法"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI651G": {
+      "courseCode": "MI651G",
+      "courseName": "資訊管理專題(一)",
+      "teacher": "吳岳穎",
+      "credits": "2",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三甲",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "專題課程時間及進度安排依各教師排定，上課時間及教室，請洽所屬專題指導老師。",
+      "opCode": "MI651G",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651G&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI651G",
+      "plainSummary": "培養學生熟悉軟體系統開發專案所使用之各項技術與工具，並且能夠實際使用這些工具與技術完 成資訊系統開發之專案管控作業",
+      "grading": [
+        {
+          "item": "課程類別 SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2",
+          "percent": 40,
+          "rawText": "課程類別 SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.創意及創業能力 3.理解專業倫理及社會責任之能力 4.能夠主動挑戰自我，並且具備面對壓力及調節壓力的能力 課程教學目標 培養學生熟悉軟體系統開發專案所使用之各項技術與工具，並且能夠實際使用這些工具與"
+        },
+        {
+          "item": "1.面對壓力時，能以冷靜的態度 因應。 2.能以積極主動的態度面對壓力 。 1.參與及實作狀況 課程綱要及進度 週 上課",
+          "percent": null,
+          "rawText": "1.面對壓力時，能以冷靜的態度 因應。 2.能以積極主動的態度面對壓力 。 1.參與及實作狀況 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-26 專題指導 一般教學:實習/實作 ,個別或小組指導, 專題, 2 2026- 03-05 專題指導 一般教學:實習"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "專題",
+        "實作"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI123H": {
+      "courseCode": "MI123H",
+      "courseName": "資訊管理",
+      "teacher": "吳肇銘",
+      "credits": "3",
+      "timeText": "3-678",
+      "classroom": "資管103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI123H",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI123H&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI123H",
+      "plainSummary": "本課介紹資訊管理的範圍，並討論資訊科技在企業、組織與社會永續中的應用與影響。課程搭配資料收集、討論與專案報告，訓練團隊合作與資訊管理觀點。",
+      "grading": [
+        {
+          "item": "平時作業",
+          "percent": 30,
+          "rawText": "平時 作業 30.0"
+        },
+        {
+          "item": "期中報告",
+          "percent": 35,
+          "rawText": "期中 報告 35.0"
+        },
+        {
+          "item": "期末報告",
+          "percent": 35,
+          "rawText": "期末 報告 35.0"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "平時作業",
+        "期中報告",
+        "期末報告",
+        "課堂討論"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": true
+    },
+    "MI340H": {
+      "courseCode": "MI340H",
+      "courseName": "軟體專案管理",
+      "teacher": "劉士豪",
+      "credits": "3",
+      "timeText": "3-1",
+      "classroom": "資管103",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI340H",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI340H&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI340H",
+      "plainSummary": "本課聚焦軟體系統開發專案管理，讓學生熟悉專案管控會用到的技術、工具與個案操作。課程透過工作分解、工作分配與專案組織等主題，練習資訊系統開發的管理流程。",
+      "grading": [
+        {
+          "item": "平時作業",
+          "percent": 20,
+          "rawText": "平時 作業 20.0"
+        },
+        {
+          "item": "期中報告",
+          "percent": 25,
+          "rawText": "期中 報告 25.0"
+        },
+        {
+          "item": "期末報告",
+          "percent": 30,
+          "rawText": "期末 報告 30.0"
+        },
+        {
+          "item": "問答",
+          "percent": 25,
+          "rawText": "其它 問答 25.0"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "平時作業",
+        "期中報告",
+        "期末報告",
+        "課堂問答",
+        "個案討論"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": true
+    },
+    "MI373H": {
+      "courseCode": "MI373H",
+      "courseName": "商業英語會話(二)",
+      "teacher": "賴曉雯",
+      "credits": "1",
+      "timeText": "1-78",
+      "classroom": "教學402",
+      "department": "商學院",
+      "courseCategory": "一般",
+      "className": "資管三乙",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "此為商學院全系必修課（不含國際學程）This is a required course for all departments in the College of Business (excluding international programs) EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI373H",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373H&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373H",
+      "plainSummary": "本課訓練商務情境中的英文口說與會話能力，內容包含商務字彙、慣用語與文法規則。課程主題涵蓋物流、創業、海外工作等單元，透過討論、測驗與口語報告練習表達。",
+      "grading": [
+        {
+          "item": "平時考",
+          "percent": 10,
+          "rawText": "平時 平時考 10.0"
+        },
+        {
+          "item": "上機測驗",
+          "percent": 10,
+          "rawText": "平時 上機測驗 10.0"
+        },
+        {
+          "item": "期中考",
+          "percent": 20,
+          "rawText": "期中 期中考 20.0"
+        },
+        {
+          "item": "期末考",
+          "percent": 20,
+          "rawText": "期末 期末考 20.0"
+        },
+        {
+          "item": "口語報告",
+          "percent": 20,
+          "rawText": "期末 口語報告 20.0"
+        },
+        {
+          "item": "上課參與和出席",
+          "percent": 20,
+          "rawText": "其它 上課參與和出席 20.0"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "平時考",
+        "上機測驗",
+        "期中考",
+        "期末考",
+        "口語報告",
+        "課堂參與"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": true
+    },
+    "MI373J": {
+      "courseCode": "MI373J",
+      "courseName": "商業英語會話(二)",
+      "teacher": "鄒明達",
+      "credits": "1",
+      "timeText": "1-78",
+      "classroom": "教學405B",
+      "department": "商學院",
+      "courseCategory": "一般",
+      "className": "資管三乙",
+      "requiredOrElective": "必修",
+      "language": "英語",
+      "quota": "0",
+      "note": "此為商學院全系必修課（不含國際學程）This is a required course for all departments in the College of Business (excluding international programs) EAP/ESP課程(EAP/ESP Course)",
+      "opCode": "MI373J",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373J&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373J",
+      "plainSummary": "本課以討論、角色扮演與商務情境練習強化英文口說能力。課程重視出席、作業、口說與聽力練習，協助學生在商務會話中更清楚表達與互動。",
+      "grading": [
+        {
+          "item": "出席",
+          "percent": 20,
+          "rawText": "平時 出席 20.0"
+        },
+        {
+          "item": "期中口說",
+          "percent": 20,
+          "rawText": "期中 口說 20.0"
+        },
+        {
+          "item": "期末口說",
+          "percent": 20,
+          "rawText": "期末 口說 20.0"
+        },
+        {
+          "item": "期末聽力",
+          "percent": 20,
+          "rawText": "期末 聽力 20.0"
+        },
+        {
+          "item": "作業1",
+          "percent": 10,
+          "rawText": "其它 作業1 10.0"
+        },
+        {
+          "item": "作業2",
+          "percent": 10,
+          "rawText": "其它 作業2 10.0"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
+      "courseOutputs": [
+        "出席",
+        "作業1",
+        "作業2",
+        "期中口說",
+        "期末口說",
+        "期末聽力"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": true
+    },
+    "MI651H": {
+      "courseCode": "MI651H",
+      "courseName": "資訊管理專題(一)",
+      "teacher": "李國誠",
+      "credits": "2",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管三乙",
+      "requiredOrElective": "必修",
+      "language": "中文",
+      "quota": "0",
+      "note": "專題課程時間及進度安排依各教師排定，上課時間及教室，請洽所屬專題指導老師。",
+      "opCode": "MI651H",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651H&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI651H",
+      "plainSummary": "本課是資管系實作教育畢業專題，學生以3至4人小組進行商用資訊系統開發。課程透過專題討論與實作，培養完整系統開發、研發創新與團隊執行能力。",
+      "grading": [
+        {
+          "item": "平時專題",
+          "percent": 50,
+          "rawText": "平時 專題 50.0"
+        },
+        {
+          "item": "期中專題",
+          "percent": 20,
+          "rawText": "期中 專題 20.0"
+        },
+        {
+          "item": "期末專題",
+          "percent": 30,
+          "rawText": "期末 專題 30.0"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "分組專題",
+        "系統開發",
+        "專題討論",
+        "實作成果"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": true
+    },
+    "MI243L": {
+      "courseCode": "MI243L",
+      "courseName": "大數據分析認證",
+      "teacher": "周賢明",
+      "credits": "3",
+      "timeText": "4-234",
+      "classroom": "資管201",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI243L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI243L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI243L",
+      "plainSummary": "本課程旨在培養學生對大數據的核心概念與應用能力，涵蓋以下學習重點： 1、大數據基礎概念與工具應用：介紹大數據處理的基本理論，並學習主流分析工具，如 Azure。 2、數據前處理與實作訓練：透過 AI 程式語言（如 Python、R）進行",
+      "grading": [
+        {
+          "item": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 ",
+          "percent": 40,
+          "rawText": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 課程教學目標 本課程旨在培養學生對大數據的核心概念與應用能力，涵蓋以"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.報告 統整 整合能力(",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.報告 實務 應",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.報告 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期中考3.報告 創新",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期中考3.報告 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.報告 課程綱要及進度 週 上課日",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-26 【目標】課程介紹與 【內容】課程大綱與評量方式等 一般教學:講授,討論, 問答, 2 2026- 03-05 【目"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "討論",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI338L": {
+      "courseCode": "MI338L",
+      "courseName": "CCNA網路認證",
+      "teacher": "何旅良",
+      "credits": "3",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "全學期非同步遠距課程，無線上同步、無實體到校面授。Asynchronous Distance Courses, no physical face-to-face teaching for the entire semester.",
+      "opCode": "MI338L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI338L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI338L",
+      "plainSummary": "使學生學得如何使用各種不同的路由通訊協定建置大型的路由網路，並輔以多層次交換器的技術 ，規劃出完善可靠的的企業網路環境。將網路路路由與交換技術應用於實際工作環境中，協助企 業架設出一個高效率、不間斷、安全可靠的的網路環境。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管四甲CCNA網路認證 課程計畫 課程代碼 MI338L 授課教師 何旅良 課程名稱 CCNA網路認",
+          "percent": 50,
+          "rawText": "1142 學年度 資管四甲CCNA網路認證 課程計畫 課程代碼 MI338L 授課教師 何旅良 課程名稱 CCNA網路認證 開課班級 資管四甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 全學期非同步遠距課程，無線上 同步、無實體到校面授。 Asynchronous Distance Courses, n"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 3.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.作業3.問答4.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能運用所學，形成一套屬於自 己的見解。 1.問答2.作業3.問答4.報告 ",
+          "percent": 15,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能運用所學，形成一套屬於自 己的見解。 1.問答2.作業3.問答4.報告 實務 應用能力(資 訊與管理) 15%"
+        },
+        {
+          "item": "1.能從工作或生活中累積的經驗 中再學習。 1.問答2.作業3.問答 創新 創意及創業能 力",
+          "percent": 15,
+          "rawText": "1.能從工作或生活中累積的經驗 中再學習。 1.問答2.作業3.問答 創新 創意及創業能 力 15%"
+        },
+        {
+          "item": "1.能在所學領域上創造新局面。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.問答2.作業3",
+          "percent": null,
+          "rawText": "1.能在所學領域上創造新局面。 2.能尋找解決問題的方案。 3.能分析各種解決問題方案的優 、缺點。 1.問答2.作業3.問答 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-23 DV and LS Routing Protocol, OSPF Concept"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "CCNA企業網路",
+      "courseOutputs": [
+        "作業",
+        "報告"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI441L": {
+      "courseCode": "MI441L",
+      "courseName": "企業實習 A",
+      "teacher": "廖慶榮",
+      "credits": "1",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "非經同意不得選修 1. 學期型實習請同學依本系公告申請企業實習時間辦理申請作業，後續會由系辦統一加選課程。(詳見資管系官網課程資訊大學部https://reurl.cc/583jey) 2. 每年公告實習公司與名額於系上社團，開放自行申請實習廠商。 3. 企業實習A為1學分，實習時數須達80小時，結束實習並繳交相關文件後即可得學分。",
+      "opCode": "MI441L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI441L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI441L",
+      "plainSummary": "本課程採用同學分享方式，討論資訊管理相關職場新鮮人必備技能，並提供同學一個分享彼此企 業實習經驗的平台。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管四甲企業實習 A 課程計畫 課程代碼 MI441L 授課教師 廖慶榮 課程名稱 企業實習 A 開課",
+          "percent": 25,
+          "rawText": "1142 學年度 資管四甲企業實習 A 課程計畫 課程代碼 MI441L 授課教師 廖慶榮 課程名稱 企業實習 A 開課班級 資管四甲 學分 1 必／選修別 選修 全/半學年 半學年 選課備註 非經同意不得選修 1.學期型實習請同學依本系公告 申請企業實習時間辦理申請作業 ，後續會由系辦統一加選課程。 (詳見資管系官網"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 ",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 25,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.問答2.報告3.報告 熱誠 能夠主動挑戰 自我，並且具 備面對壓力及 調節壓力的能 力 25%"
+        },
+        {
+          "item": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 ",
+          "percent": 25,
+          "rawText": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 隊執行工作的 能力 25%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.問答2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI442L": {
+      "courseCode": "MI442L",
+      "courseName": "企業實習 B",
+      "teacher": "廖慶榮",
+      "credits": "2",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "非經同意不得選修 1.學期型實習請同學依本系公告申請企業實習時間辦理申請作業，後續會由系辦統一加選課程。(詳見資管系官網課程資訊大學部https://reurl.cc/583jey) 2.每年公告實習公司與名額於系上社團，開放自行申請實習廠商。 3.企業實習B為2學分，實習時數須達160小時，結束實習並繳交相關文件後即可得學分。 4.上課時間：依實習單位指定時間、上課地點：依實習單位指定地點",
+      "opCode": "MI442L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI442L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI442L",
+      "plainSummary": "本課程採用同學分享方式，討論資訊管理相關職場新鮮人必備技能，並提供同學一個分享彼此企 業實習經驗的平台。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管四甲企業實習 B 課程計畫 課程代碼 MI442L 授課教師 廖慶榮 課程名稱 企業實習 B 開課",
+          "percent": 25,
+          "rawText": "1142 學年度 資管四甲企業實習 B 課程計畫 課程代碼 MI442L 授課教師 廖慶榮 課程名稱 企業實習 B 開課班級 資管四甲 學分 2 必／選修別 選修 全/半學年 半學年 選課備註 非經同意不得選修 1.學期型實習請同學依本系公告 申請企業實習時間辦理申請作業 ，後續會由系辦統一加選課程。 (詳見資管系官網"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 ",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 25,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.問答2.報告3.報告 熱誠 能夠主動挑戰 自我，並且具 備面對壓力及 調節壓力的能 力 25%"
+        },
+        {
+          "item": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 ",
+          "percent": 25,
+          "rawText": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 隊執行工作的 能力 25%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.問答2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI443L": {
+      "courseCode": "MI443L",
+      "courseName": "企業實習 C",
+      "teacher": "廖慶榮",
+      "credits": "3",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "非經同意，不得選修 1.學期型實習請同學依本系公告申請企業實習時間辦理申請作業，後續會由系辦統一加選課程。(詳見資管系官網課程資訊大學部https://reurl.cc/583jey) 2.每年公告實習公司與名額於系上社團，開放自行申請實習廠商。 3.企業實習C為3學分，實習時數須達240小時，結束實習並繳交相關文件後即可得學分。 4.上課時間：依實習單位指定時間、上課地點：依實習單位指定地點",
+      "opCode": "MI443L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI443L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI443L",
+      "plainSummary": "本課程採用同學分享方式，討論資訊管理相關職場新鮮人必備技能，並提供同學一個分享彼此企 業實習經驗的平台。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管四甲企業實習 C 課程計畫 課程代碼 MI443L 授課教師 廖慶榮 課程名稱 企業實習 C 開課",
+          "percent": 25,
+          "rawText": "1142 學年度 資管四甲企業實習 C 課程計畫 課程代碼 MI443L 授課教師 廖慶榮 課程名稱 企業實習 C 開課班級 資管四甲 學分 3 必／選修別 選修 全/半學年 半學年 選課備註 非經同意，不得選修 1.學期型實習請同學依本系公告 申請企業實習時間辦理申請作業 ，後續會由系辦統一加選課程。 (詳見資管系官"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 ",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 25,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.問答2.報告3.報告 熱誠 能夠主動挑戰 自我，並且具 備面對壓力及 調節壓力的能 力 25%"
+        },
+        {
+          "item": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 ",
+          "percent": 25,
+          "rawText": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 隊執行工作的 能力 25%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.問答2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI444L": {
+      "courseCode": "MI444L",
+      "courseName": "企業實習 D",
+      "teacher": "廖慶榮",
+      "credits": "4",
+      "timeText": "",
+      "classroom": "",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "非經同意，不得選修 1.學期型實習請同學依本系公告申請企業實習時間辦理申請作業，後續會由系辦統一加選課程。(詳見資管系官網課程資訊大學部https://reurl.cc/583jey) 2.每年公告實習公司與名額於系上社團，開放自行申請實習廠商。 3.企業實習D為4學分，實習時數須達320小時，結束實習並繳交相關文件後即可得學分。 4.上課時間：依實習單位指定時間、上課地點：依實習單位指定地點",
+      "opCode": "MI444L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI444L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI444L",
+      "plainSummary": "本課程採用同學分享方式，討論資訊管理相關職場新鮮人必備技能，並提供同學一個分享彼此企 業實習經驗的平台。",
+      "grading": [
+        {
+          "item": "1142 學年度 資管四甲企業實習 D 課程計畫 課程代碼 MI444L 授課教師 廖慶榮 課程名稱 企業實習 D 開課",
+          "percent": 25,
+          "rawText": "1142 學年度 資管四甲企業實習 D 課程計畫 課程代碼 MI444L 授課教師 廖慶榮 課程名稱 企業實習 D 開課班級 資管四甲 學分 4 必／選修別 選修 全/半學年 半學年 選課備註 非經同意，不得選修 1.學期型實習請同學依本系公告 申請企業實習時間辦理申請作業 ，後續會由系辦統一加選課程。 (詳見資管系官"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 ",
+          "percent": 25,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能將專業知識融會貫通，統合 成完整的知識。 1.問答2.報告3.報告 實務 應用能力(資 訊與管理) 25%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 ",
+          "percent": 25,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 3.能從工作或生活中累積的經驗 中再學習。 1.問答2.報告3.報告 熱誠 能夠主動挑戰 自我，並且具 備面對壓力及 調節壓力的能 力 25%"
+        },
+        {
+          "item": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 ",
+          "percent": 25,
+          "rawText": "1.能以積極主動的態度面對壓力 。 2.面對壓力時，能保持彈性、變 通。 1.問答2.報告3.報告 溝通 有效溝通及團 隊執行工作的 能力 25%"
+        },
+        {
+          "item": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都",
+          "percent": null,
+          "rawText": "1.與他人溝通時，能暸解對方所 要傳達的訊息。 2.在團體活動中，能明確表達個 人意見。。 3.與他人交換意見時，彼此都能 相互理解。 4.與他人交談時，對方能瞭解我 所要傳達的訊息。 1.問答2.報告3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-2"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    },
+    "MI582L": {
+      "courseCode": "MI582L",
+      "courseName": "區塊鏈與金融科技應用",
+      "teacher": "周賢明",
+      "credits": "3",
+      "timeText": "5-678",
+      "classroom": "教學401",
+      "department": "資管系",
+      "courseCategory": "一般",
+      "className": "資管四甲",
+      "requiredOrElective": "選修",
+      "language": "中文",
+      "quota": "0",
+      "note": "",
+      "opCode": "MI582L",
+      "yearTerm": "1142",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI582L&langId=zh_TW",
+      "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI582L",
+      "plainSummary": "本課程旨在培養學生對區塊鏈與金融科技應用的核心概念與應用能力，涵蓋以下學習重點： 1、區塊鏈與金融科技基礎概念：介紹區塊鏈與金融科技的基本理論，並學習主流分析實例，如 Ethereum。 2、區塊鏈與金融科技實作訓練：透過區塊鏈程式語言",
+      "grading": [
+        {
+          "item": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 12:責任的消費與生產",
+          "percent": 40,
+          "rawText": "課程類別 <程式設計課程><實作課程><新興科技創新教學> SDGs目標關 聯性 4:優質教育, 12:責任的消費與生產, 學系核心課程能力指標 1.基礎能力(資訊技術、管理、數量及語文能力) 2.整合能力(資訊技術與企業管理) 3.應用能力(資訊與管理) 4.創意及創業能力 課程教學目標 本課程旨在培養學生對區塊鏈與"
+        },
+        {
+          "item": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.報告 統整 整合能力(",
+          "percent": 20,
+          "rawText": "1.能用所學的專業知識解答相關 問題。 2.能分析專業科目之間的關聯性 。 1.作業2.期中考3.報告 統整 整合能力(資 訊技術與企業 管理) 20%"
+        },
+        {
+          "item": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.報告 實務 應",
+          "percent": 20,
+          "rawText": "1.能以淺顯易懂的方式理解複雜 的事物。 2.能從零散或片段的事物中找出 共同點。 1.作業2.期中考3.報告 實務 應用能力(資 訊與管理) 20%"
+        },
+        {
+          "item": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期中考3.報告 創新",
+          "percent": 20,
+          "rawText": "1.能累積從工作或生活中所獲得 的新經驗。 2.能從工作或生活中獲得新的經 驗或體驗。 1.作業2.期中考3.報告 創新 創意及創業能 力 20%"
+        },
+        {
+          "item": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.報告 課程綱要及進度 週 上課日",
+          "percent": null,
+          "rawText": "1.能提出新的想法或觀念。 2.能將自己既有的觀念加上新思 維。 1.作業2.期中考3.報告 課程綱要及進度 週 上課日 課程單元目標及內容 教學法與教學活動(可 複選) 評量 1 2026- 02-27 補假(和平紀念日)放假 【目標】課程介紹 【內容】課程大綱與評量方式等 補假(和平紀念日)放 假 一般教學:講授,"
+        }
+      ],
+      "gradingStatus": "success",
+      "gradingMessage": "",
+      "prerequisites": "無。",
+      "courseOutputs": [
+        "作業",
+        "報告",
+        "實作",
+        "期中評量"
+      ],
+      "urlCheckStatus": "unknown",
+      "parseStatus": "success",
+      "manualReviewed": false
+    }
+  }
+}

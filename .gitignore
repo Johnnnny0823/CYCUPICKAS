@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+tools/raw/syllabus_html/*.tmp
+server*.log

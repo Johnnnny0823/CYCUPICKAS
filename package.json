@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "python -m unittest discover -s tests",
+    "validate": "python tools/validate_course_summaries.py extension/data/course_summaries.json",
+    "serve": "python -m http.server 8765",
+    "verify-demo": "python tools/verify_demo_contract.py"
+  },
+  "private": true
+}

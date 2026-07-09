@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中原大學選課系統 Demo｜AI 幫你監展示用</title>
+  <link rel="stylesheet" href="fake_selection_system.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><div class="logo">CY</div><strong>中原大學</strong></div>
+    <nav class="topnav"><a>生活⌄</a><a>課業⌄</a><a>健康⌄</a><a>意見信箱</a></nav>
+    <div class="user-pill">◉ 11244255</div>
+  </header>
+  <main class="app-shell">
+    <aside class="left-panel">
+      <div class="stage"><b>目前選課階段:</b><span>系統尚未開放選課</span></div>
+      <div class="side-row"><b>修課清單 (0)</b><span>›</span></div>
+      <div class="side-row"><b>追蹤清單 (0)</b><span>›</span></div>
+      <div class="wish-actions"><button>志願序設定</button><button>志願序上限</button></div>
+      <div class="side-row"><b>登記清單 (0)</b><span>›</span></div>
+      <div class="side-row"><b>遞補清單 (0)</b><span>›</span></div>
+    </aside>
+    <button class="collapse-handle" aria-label="收合側欄">❮❮</button>
+    <section class="workspace">
+      <nav class="subnav"><a>公告欄</a><a>線上表單選課作業</a><a>選課時間公告</a><a>✉ 選課意見信箱</a><span></span><a>清單列表⌄</a><a>個人資訊⌄</a><a>LANGUAGE⌄</a></nav>
+      <section class="course-panel">
+        <div class="query-title"><strong>課程查詢</strong><button>篩選條件</button><span class="result-pill">目前 <b id="resultCount">0</b> 門</span></div>
+        <div class="quick-row"><span>快速查詢本系課程</span><button class="grade-filter active" data-grade="all">全部</button><button class="grade-filter" data-grade="一">大一</button><button class="grade-filter" data-grade="二">大二</button><button class="grade-filter" data-grade="三">大三</button><button class="grade-filter" data-grade="四">大四</button></div>
+        <label class="page-size">每頁筆數 <select><option>10</option><option>20</option></select></label>
+        <section class="field-box">
+          <button class="field-title">▣ 個人慣用釘選設定</button>
+          <div class="checks">
+            <label><input type="checkbox" checked> 課綱</label><label><input type="checkbox" checked> 授課語言</label><label><input type="checkbox"> 停修</label><label><input type="checkbox"> 跨系</label><label><input type="checkbox"> 跨部</label><label><input type="checkbox"> 轉雙跨就</label><label><input type="checkbox"> 預研生</label><label><input type="checkbox"> 學程類別</label><label><input type="checkbox" checked> 課程類別</label><label><input type="checkbox" checked> 開課班級</label>
+            <label><input type="checkbox"> 課程代碼</label><label><input type="checkbox" checked> 課程名稱</label><label><input type="checkbox"> 必/選修</label><label><input type="checkbox"> 期程</label><label><input type="checkbox"> 學分數</label><label><input type="checkbox" checked> 授課教師</label><label><input type="checkbox" checked> 上課時間</label><label><input type="checkbox" checked> 上課教室</label><label><input type="checkbox"> 開課人數</label>
+            <label><input type="checkbox" checked> 已選人數(含自動加選)</label><label><input type="checkbox"> 選課名額</label><label><input type="checkbox" checked> 篩選餘額</label><label><input type="checkbox"> 現階段登記人數</label><label><input type="checkbox"> 去年登記人數</label><label><input type="checkbox"> PBL課程</label><label><input type="checkbox" checked> 備註</label><label><input type="checkbox" checked> 遠距教學課程</label>
+          </div>
+        </section>
+        <div class="course-table-scroll">
+        <table class="course-table"><thead><tr><th><button class="display-btn">選擇顯示欄位</button> ↻</th><th>課綱</th><th>授課語言</th><th>課程類別</th><th>開課班級</th><th>課程名稱</th><th>授課教師</th><th>上課時間</th><th>上課教室</th><th>已選人數(含自動加選)</th><th>篩選餘額</th><th>備註</th><th>遠距教學課程</th></tr></thead><tbody id="courseRows"></tbody></table>
+        </div>
+      </section>
+      <p class="demo-note">競賽展示用仿介面，非中原大學正式選課系統。</p>
+    </section>
+  </main>
+  <script src="fake_selection_system.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+.aiwatch-action-cell { width: 76px; text-align: center; padding: 3px 2px; }
+.aiwatch-button, .aiwatch-compare-button { display: block; width: 100%; margin: 1px auto; border: 1px solid #c9d4e5; border-radius: 4px; padding: 2px 2px; background: #fff; color: #1f3658; font-size: 10px; font-weight: 800; cursor: pointer; white-space: nowrap; }
+.aiwatch-button { border-color: #1d6fd6; background: #126fe8; color: #fff; }
+.aiwatch-button:hover, .aiwatch-button.is-open { background: #0d57bd; }
+.aiwatch-compare-button:hover, .aiwatch-compare-button.is-selected { border-color: #0f766e; background: #e8faf7; color: #0f766e; }
+.aiwatch-compare-button:disabled { opacity: .45; cursor: not-allowed; }
+.aiwatch-filterbar { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin: 0; border: 1px solid #d8dee5; border-bottom: 0; padding: 10px 12px; background: #f8fafc; }
+.aiwatch-filterbar b { margin-right: 4px; color: #1f2937; font-size: 13px; }
+.aiwatch-filterbar button { border: 1px solid #cbd5e1; border-radius: 999px; padding: 6px 11px; background: #fff; color: #475569; font-size: 13px; font-weight: 700; cursor: pointer; }
+.aiwatch-filterbar button.is-active, .aiwatch-filterbar button:hover { border-color: #1d6fd6; background: #eaf3ff; color: #0d57bd; }
+.aiwatch-summary-row > td { background: #f8fafc; padding: 0 8px 10px; }
+.aiwatch-card { margin: 10px 0 2px; border: 1px solid #d7dfeb; border-radius: 8px; background: #fff; color: #1f2937; line-height: 1.55; box-shadow: 0 8px 24px rgba(15, 23, 42, .08); overflow: hidden; }
+.aiwatch-card-header { display: flex; justify-content: space-between; gap: 16px; padding: 14px 16px; border-bottom: 1px solid #e5edf7; background: #f8fbff; }
+.aiwatch-kicker { color: #1d6fd6; font-size: 12px; font-weight: 900; }
+.aiwatch-title { margin-top: 2px; color: #111827; font-size: 18px; font-weight: 900; }
+.aiwatch-meta { align-self: center; color: #64748b; font-size: 13px; white-space: nowrap; }
+.aiwatch-grid { display: grid; grid-template-columns: minmax(280px, 1.05fr) minmax(240px, .95fr); gap: 12px; padding: 0 14px 14px; }
+.aiwatch-modern-section { min-width: 0; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; background: #fff; }
+.aiwatch-summary-block { margin: 14px; }
+.aiwatch-modern-section h4 { margin: 0 0 8px; color: #1f2937; font-size: 14px; font-weight: 900; }
+.aiwatch-modern-section p { margin: 0; color: #334155; }
+.aiwatch-output-title { margin-top: 12px !important; padding-top: 12px; border-top: 1px solid #e2e8f0; }
+.aiwatch-grading-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px; }
+.aiwatch-grading-table td { border-bottom: 1px solid #edf2f7; padding: 8px 10px; vertical-align: top; overflow-wrap: anywhere; }
+.aiwatch-grading-table td:first-child { padding-right: 16px; }
+.aiwatch-grading-table tr:last-child td { border-bottom: 0; }
+.aiwatch-grading-table td:last-child { width: 96px; text-align: right; color: #0f766e; font-weight: 900; white-space: nowrap; }
+.aiwatch-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.aiwatch-chip { border: 1px solid #c7d2fe; border-radius: 999px; padding: 3px 8px; background: #eef2ff; color: #3730a3; font-size: 12px; font-weight: 700; }
+.aiwatch-status { margin: 0 14px 12px; border: 1px solid #e2e8f0; border-radius: 6px; padding: 8px 10px; background: #f8fafc; color: #64748b; font-size: 12px; }
+.aiwatch-links { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; padding: 0 14px 14px; }
+.aiwatch-link-button, .aiwatch-muted-link { border-radius: 6px; padding: 6px 10px; font-size: 12px; font-weight: 800; text-decoration: none; }
+.aiwatch-link-button, .aiwatch-link-button:visited { background: #126fe8; color: #fff !important; }
+.aiwatch-muted-link { border: 1px solid #cbd5e1; color: #334155; background: #fff; }
+.aiwatch-compare-launcher { position: fixed; right: 22px; bottom: 22px; z-index: 2147483647; border: 0; border-radius: 999px; padding: 11px 16px; background: #111827; color: #fff; font-size: 14px; font-weight: 900; box-shadow: 0 12px 30px rgba(15, 23, 42, .25); cursor: pointer; }
+.aiwatch-compare-modal { position: fixed; inset: 0; z-index: 2147483647; display: grid; place-items: center; padding: 32px; background: rgba(15, 23, 42, .42); }
+.aiwatch-compare-dialog { width: min(980px, 100%); max-height: min(76vh, 720px); border-radius: 8px; background: #fff; box-shadow: 0 24px 70px rgba(15, 23, 42, .35); overflow: hidden; }
+.aiwatch-compare-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 16px; border-bottom: 1px solid #e2e8f0; background: #f8fafc; color: #111827; }
+.aiwatch-compare-head strong { display: block; font-size: 18px; }
+.aiwatch-compare-head span { color: #64748b; font-size: 12px; }
+.aiwatch-close-compare, .aiwatch-clear-compare, .aiwatch-advise-button { margin-left: 8px; border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 10px; background: #fff; color: #334155; font-weight: 800; cursor: pointer; }
+.aiwatch-close-compare { border-color: #126fe8; background: #126fe8; color: #fff; }
+.aiwatch-advise-button { border-color: #7c3aed; background: #f5f3ff; color: #5b21b6; }
+.aiwatch-advise-button:hover { background: #ede9fe; }
+.aiwatch-advice-result { margin: 12px 16px 16px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 14px; background: #faf5ff; color: #334155; font-size: 13px; line-height: 1.6; }
+.aiwatch-advice-result h4 { margin: 0 0 8px; color: #5b21b6; font-size: 14px; }
+.aiwatch-advice-result ul, .aiwatch-advice-result ol { margin: 4px 0 8px 18px; padding: 0; }
+.aiwatch-advice-error { color: #b45309; margin: 0; }
+.aiwatch-compare-scroll { max-height: calc(76vh - 72px); overflow: auto; }
+.aiwatch-compare-dialog table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px; }
+.aiwatch-compare-dialog th, .aiwatch-compare-dialog td { border-bottom: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; padding: 10px 12px; vertical-align: top; overflow-wrap: anywhere; white-space: pre-line; }
+.aiwatch-compare-dialog th { width: 104px; background: #f8fafc; color: #334155; text-align: left; }
+.aiwatch-compare-grading { line-height: 1.6; color: #1f2937; }
+@media (max-width: 760px) { .aiwatch-grid { grid-template-columns: 1fr; } .aiwatch-card-header, .aiwatch-compare-head { display: block; } .aiwatch-meta { margin-top: 4px; } .aiwatch-compare-modal { padding: 12px; } }

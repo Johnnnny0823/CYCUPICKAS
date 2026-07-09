@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 幫你監｜備援展示頁</title>
+  <link rel="stylesheet" href="fake_selection_system.css">
+  <link rel="stylesheet" href="../extension/styles.css">
+</head>
+<body>
+  <header class="topbar"><div>AI 幫你監｜備援展示頁</div><div class="badge">Extension 無法載入時使用</div></header>
+  <div class="notice">此頁為備援展示，不是主產品架構；主產品為 Chrome Extension。</div>
+  <main class="content">
+    <table class="course-table"><thead><tr><th>課綱</th><th>課程代碼／課程名稱</th><th>授課教師</th><th>時間／教室</th><th>AI 幫你監</th></tr></thead><tbody id="rows"></tbody></table>
+  </main>
+  <script>
+  Promise.all([fetch('../extension/data/course_seed.json').then(r=>r.json()), fetch('../extension/data/course_summaries.json').then(r=>r.json())]).then(([seed, summaries]) => {
+    document.getElementById('rows').innerHTML = seed.map(course => {
+      const summary = summaries.courses[course.courseCode] || {};
+      const grading = (summary.grading || []).map(item => `<tr><td>${item.item || item.rawText || ''}</td><td>${item.percent == null ? '' : item.percent + '%'}</td></tr>`).join('');
+      return `<tr data-course-code="${course.courseCode}"><td><a href="${course.syllabusUrl}">課綱</a></td><td><b>${course.courseCode}</b><br>${course.courseName}</td><td>${course.teacher}</td><td>${course.timeText}<br>${course.classroom}</td><td><div class="aiwatch-card"><div class="aiwatch-section"><div class="aiwatch-section-title">這堂課在幹嘛</div><p>${summary.plainSummary || '課綱尚未成功解析。'}</p></div><div class="aiwatch-section"><div class="aiwatch-section-title">評分方式</div>${grading ? `<table class="aiwatch-grading-table">${grading}</table>` : '<p>課綱頁面未成功解析到評分表格</p>'}</div><div class="aiwatch-section"><div class="aiwatch-section-title">先備知識</div><p>${summary.prerequisites || '課綱未明確要求。'}</p></div></div></td></tr>`;
+    }).join('');
+  });
+  </script>
+</body>
+</html>

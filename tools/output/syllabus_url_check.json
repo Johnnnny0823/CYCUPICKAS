@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-06-29T13:45:15.959584+00:00",
+  "yearTerm": "1142",
+  "total": 7,
+  "success": 0,
+  "failed": 7,
+  "results": [
+    {
+      "courseCode": "MI123H",
+      "opCode": "MI123H",
+      "courseName": "資訊管理",
+      "teacher": "吳肇銘",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI123H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI340H",
+      "opCode": "MI340H",
+      "courseName": "軟體專案管理",
+      "teacher": "劉士豪",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI340H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI373H",
+      "opCode": "MI373H",
+      "courseName": "商業英語會話(二)",
+      "teacher": "賴曉雯",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI373J",
+      "opCode": "MI373J",
+      "courseName": "商業英語會話(二)",
+      "teacher": "鄒明達",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373J&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI651H",
+      "opCode": "MI651H",
+      "courseName": "資訊管理專題(一)",
+      "teacher": "廖秀莉",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI651H",
+      "opCode": "MI651H",
+      "courseName": "資訊管理專題(一)",
+      "teacher": "廖慶榮",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    },
+    {
+      "courseCode": "MI651H",
+      "opCode": "MI651H",
+      "courseName": "資訊管理專題(一)",
+      "teacher": "李國誠",
+      "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651H&langId=zh_TW",
+      "httpStatus": 200,
+      "contentType": "pdf",
+      "reachable": true,
+      "hasUsefulContent": false,
+      "matchedKeywords": [],
+      "message": "無法讀取課綱頁面或課綱尚未開放"
+    }
+  ]
+}
