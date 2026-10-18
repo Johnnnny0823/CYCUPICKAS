@@ -1,5 +1,5 @@
-.aiwatch-action-cell { width: 76px; text-align: center; padding: 3px 2px; }
-.aiwatch-button, .aiwatch-compare-button { display: block; width: 100%; margin: 1px auto; border: 1px solid #c9d4e5; border-radius: 4px; padding: 2px 2px; background: #fff; color: #1f3658; font-size: 10px; font-weight: 800; cursor: pointer; white-space: nowrap; }
+.aiwatch-action-cell { width: 112px; text-align: center; }
+.aiwatch-button, .aiwatch-compare-button { display: block; width: 88px; margin: 3px auto; border: 1px solid #c9d4e5; border-radius: 6px; padding: 5px 7px; background: #fff; color: #1f3658; font-size: 12px; font-weight: 800; cursor: pointer; white-space: nowrap; }
 .aiwatch-button { border-color: #1d6fd6; background: #126fe8; color: #fff; }
 .aiwatch-button:hover, .aiwatch-button.is-open { background: #0d57bd; }
 .aiwatch-compare-button:hover, .aiwatch-compare-button.is-selected { border-color: #0f766e; background: #e8faf7; color: #0f766e; }
@@ -38,14 +38,8 @@
 .aiwatch-compare-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 14px 16px; border-bottom: 1px solid #e2e8f0; background: #f8fafc; color: #111827; }
 .aiwatch-compare-head strong { display: block; font-size: 18px; }
 .aiwatch-compare-head span { color: #64748b; font-size: 12px; }
-.aiwatch-close-compare, .aiwatch-clear-compare, .aiwatch-advise-button { margin-left: 8px; border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 10px; background: #fff; color: #334155; font-weight: 800; cursor: pointer; }
+.aiwatch-close-compare, .aiwatch-clear-compare { margin-left: 8px; border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 10px; background: #fff; color: #334155; font-weight: 800; cursor: pointer; }
 .aiwatch-close-compare { border-color: #126fe8; background: #126fe8; color: #fff; }
-.aiwatch-advise-button { border-color: #7c3aed; background: #f5f3ff; color: #5b21b6; }
-.aiwatch-advise-button:hover { background: #ede9fe; }
-.aiwatch-advice-result { margin: 12px 16px 16px; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 14px; background: #faf5ff; color: #334155; font-size: 13px; line-height: 1.6; }
-.aiwatch-advice-result h4 { margin: 0 0 8px; color: #5b21b6; font-size: 14px; }
-.aiwatch-advice-result ul, .aiwatch-advice-result ol { margin: 4px 0 8px 18px; padding: 0; }
-.aiwatch-advice-error { color: #b45309; margin: 0; }
 .aiwatch-compare-scroll { max-height: calc(76vh - 72px); overflow: auto; }
 .aiwatch-compare-dialog table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 13px; }
 .aiwatch-compare-dialog th, .aiwatch-compare-dialog td { border-bottom: 1px solid #e2e8f0; border-right: 1px solid #e2e8f0; padding: 10px 12px; vertical-align: top; overflow-wrap: anywhere; white-space: pre-line; }

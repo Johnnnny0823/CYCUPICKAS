@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-06-29T13:45:15.959584+00:00",
+  "checkedAt": "2026-06-20T08:41:05.262139+00:00",
   "yearTerm": "1142",
   "total": 7,
-  "success": 0,
-  "failed": 7,
+  "success": 7,
+  "failed": 0,
   "results": [
     {
       "courseCode": "MI123H",
@@ -14,9 +14,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI340H",
@@ -27,9 +35,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI373H",
@@ -40,9 +56,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI373J",
@@ -53,9 +77,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI651H",
@@ -66,9 +98,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI651H",
@@ -79,9 +119,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     },
     {
       "courseCode": "MI651H",
@@ -92,9 +140,17 @@
       "httpStatus": 200,
       "contentType": "pdf",
       "reachable": true,
-      "hasUsefulContent": false,
-      "matchedKeywords": [],
-      "message": "無法讀取課綱頁面或課綱尚未開放"
+      "hasUsefulContent": true,
+      "matchedKeywords": [
+        "課程教學目標",
+        "課程綱要",
+        "評分",
+        "平時",
+        "期中",
+        "期末",
+        "教學目標"
+      ],
+      "message": "課綱頁面可讀取"
     }
   ]
 }

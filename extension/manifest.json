@@ -10,12 +10,8 @@
   "host_permissions": [
     "http://localhost:*/*",
     "http://127.0.0.1:*/*",
-    "file:///*",
-    "https://generativelanguage.googleapis.com/*"
+    "file:///*"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
     {
       "matches": [

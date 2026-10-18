@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "version": "1.2.0",
+    "version": "1.1.0",
     "school": "中原大學",
     "source": "開課查詢系統匯出資料與公開課綱頁面",
     "yearTerm": "1142",
-    "generatedAt": "2026-07-09T16:04:22.661668+00:00",
-    "description": "AI 幫你監 Chrome Extension 使用的課綱摘要資料，課綱語義解析與精力推論由 Gemini 2.5 Flash 產生"
+    "generatedAt": "2026-06-20T09:03:59.068771+00:00",
+    "description": "AI 幫你監 Chrome Extension 使用的課綱摘要資料，本版本不使用外部 AI API"
   },
   "courses": {
     "MI123H": {
@@ -26,37 +26,36 @@
       "yearTerm": "1142",
       "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI123H&langId=zh_TW",
       "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI123H",
-      "plainSummary": "這門課會帶你深入了解資訊管理的範圍與內容，學習如何應用資訊科技解決企業與組織中的問題，並探討它對社會永續發展的影響。課程注重實作、討論與團隊合作，讓你實際分析並提出解決方案。",
+      "plainSummary": "本課介紹資訊管理的範圍，並討論資訊科技在企業、組織與社會永續中的應用與影響。課程搭配資料收集、討論與專案報告，訓練團隊合作與資訊管理觀點。",
       "grading": [
         {
           "item": "平時作業",
           "percent": 30,
-          "rawText": "平時作業"
+          "rawText": "平時 作業 30.0"
         },
         {
           "item": "期中報告",
           "percent": 35,
-          "rawText": "期中報告"
+          "rawText": "期中 報告 35.0"
         },
         {
           "item": "期末報告",
           "percent": 35,
-          "rawText": "期末報告"
+          "rawText": "期末 報告 35.0"
         }
       ],
       "gradingStatus": "success",
       "gradingMessage": "",
-      "prerequisites": "無",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
       "courseOutputs": [
-        "作業",
-        "報告",
-        "專案"
+        "平時作業",
+        "期中報告",
+        "期末報告",
+        "課堂討論"
       ],
       "urlCheckStatus": "unknown",
       "parseStatus": "success",
-      "effortLevel": "高",
-      "effortReason": "課程包含平時作業、期中報告、期末報告，並有多次專案報告，需要持續投入時間。",
-      "manualReviewed": false
+      "manualReviewed": true
     },
     "MI340H": {
       "courseCode": "MI340H",
@@ -76,44 +75,42 @@
       "yearTerm": "1142",
       "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI340H&langId=zh_TW",
       "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI340H",
-      "plainSummary": "這門課會帶你學習軟體專案開發的各種技術和工具，並實際應用它們來管理資訊系統的開發專案，讓你學會如何有效掌握專案進度與品質。",
+      "plainSummary": "本課聚焦軟體系統開發專案管理，讓學生熟悉專案管控會用到的技術、工具與個案操作。課程透過工作分解、工作分配與專案組織等主題，練習資訊系統開發的管理流程。",
       "grading": [
         {
           "item": "平時作業",
           "percent": 20,
-          "rawText": "平時作業"
+          "rawText": "平時 作業 20.0"
         },
         {
           "item": "期中報告",
           "percent": 25,
-          "rawText": "期中報告"
+          "rawText": "期中 報告 25.0"
         },
         {
           "item": "期末報告",
           "percent": 30,
-          "rawText": "期末報告"
+          "rawText": "期末 報告 30.0"
         },
         {
           "item": "問答",
           "percent": 25,
-          "rawText": "問答"
+          "rawText": "其它 問答 25.0"
         }
       ],
       "gradingStatus": "success",
       "gradingMessage": "",
-      "prerequisites": "無",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
       "courseOutputs": [
-        "作業",
-        "報告",
-        "問答",
-        "期中考",
-        "期末考"
+        "平時作業",
+        "期中報告",
+        "期末報告",
+        "課堂問答",
+        "個案討論"
       ],
       "urlCheckStatus": "unknown",
       "parseStatus": "success",
-      "effortLevel": "高",
-      "effortReason": "課程包含頻繁的作業、多份報告、期中期末考，且為實作課程，需要投入較多精力。",
-      "manualReviewed": false
+      "manualReviewed": true
     },
     "MI373H": {
       "courseCode": "MI373H",
@@ -133,55 +130,53 @@
       "yearTerm": "1142",
       "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373H&langId=zh_TW",
       "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373H",
-      "plainSummary": "這門課旨在訓練學生在商業情境中的英語口說與會話能力，並加強相關的詞彙、慣用語和文法知識，幫助學生更流暢地進行商業溝通。",
+      "plainSummary": "本課訓練商務情境中的英文口說與會話能力，內容包含商務字彙、慣用語與文法規則。課程主題涵蓋物流、創業、海外工作等單元，透過討論、測驗與口語報告練習表達。",
       "grading": [
         {
           "item": "平時考",
           "percent": 10,
-          "rawText": "平時考"
+          "rawText": "平時 平時考 10.0"
         },
         {
           "item": "上機測驗",
           "percent": 10,
-          "rawText": "上機測驗"
+          "rawText": "平時 上機測驗 10.0"
         },
         {
           "item": "期中考",
           "percent": 20,
-          "rawText": "期中考"
+          "rawText": "期中 期中考 20.0"
         },
         {
           "item": "期末考",
           "percent": 20,
-          "rawText": "期末考"
+          "rawText": "期末 期末考 20.0"
         },
         {
           "item": "口語報告",
           "percent": 20,
-          "rawText": "口語報告"
+          "rawText": "期末 口語報告 20.0"
         },
         {
           "item": "上課參與和出席",
           "percent": 20,
-          "rawText": "上課參與和出席"
+          "rawText": "其它 上課參與和出席 20.0"
         }
       ],
       "gradingStatus": "success",
       "gradingMessage": "",
-      "prerequisites": "無",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
       "courseOutputs": [
         "平時考",
         "上機測驗",
         "期中考",
         "期末考",
         "口語報告",
-        "作業"
+        "課堂參與"
       ],
       "urlCheckStatus": "unknown",
       "parseStatus": "success",
-      "effortLevel": "高",
-      "effortReason": "課程包含期中期末考、平時考、上機測驗、口語報告及多項作業，需要投入較多精力。",
-      "manualReviewed": false
+      "manualReviewed": true
     },
     "MI373J": {
       "courseCode": "MI373J",
@@ -201,52 +196,53 @@
       "yearTerm": "1142",
       "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI373J&langId=zh_TW",
       "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI373J",
-      "plainSummary": "這門課旨在透過討論各種商業議題、角色扮演和情境模擬，加強學生的英文會話能力，同時也會強調常用英文表達和文法應用。",
+      "plainSummary": "本課以討論、角色扮演與商務情境練習強化英文口說能力。課程重視出席、作業、口說與聽力練習，協助學生在商務會話中更清楚表達與互動。",
       "grading": [
         {
           "item": "出席",
           "percent": 20,
-          "rawText": "出席"
+          "rawText": "平時 出席 20.0"
         },
         {
           "item": "期中口說",
           "percent": 20,
-          "rawText": "期中口說"
+          "rawText": "期中 口說 20.0"
         },
         {
           "item": "期末口說",
           "percent": 20,
-          "rawText": "期末口說"
+          "rawText": "期末 口說 20.0"
         },
         {
           "item": "期末聽力",
           "percent": 20,
-          "rawText": "期末聽力"
+          "rawText": "期末 聽力 20.0"
         },
         {
           "item": "作業1",
           "percent": 10,
-          "rawText": "作業1"
+          "rawText": "其它 作業1 10.0"
         },
         {
           "item": "作業2",
           "percent": 10,
-          "rawText": "作業2"
+          "rawText": "其它 作業2 10.0"
         }
       ],
       "gradingStatus": "success",
       "gradingMessage": "",
-      "prerequisites": "無",
+      "prerequisites": "課綱未列明學前科目或能力需求。",
       "courseOutputs": [
-        "作業",
-        "口說測驗",
-        "聽力測驗"
+        "出席",
+        "作業1",
+        "作業2",
+        "期中口說",
+        "期末口說",
+        "期末聽力"
       ],
       "urlCheckStatus": "unknown",
       "parseStatus": "success",
-      "effortLevel": "中",
-      "effortReason": "有兩份作業、期中口說和期末口說及聽力測驗，需頻繁參與課堂討論與角色扮演。",
-      "manualReviewed": false
+      "manualReviewed": true
     },
     "MI651H": {
       "courseCode": "MI651H",
@@ -266,36 +262,36 @@
       "yearTerm": "1142",
       "syllabusUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/syllabus/outPutCoursePreView.action?yearTerm=1142&opCode=MI651H&langId=zh_TW",
       "previewUrl": "https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=MI651H",
-      "plainSummary": "資訊管理專題(一)是資管系必修的畢業專題課程，學生需3-4人一組，針對商用資訊系統進行開發。課程強調實作與產學合作，目標是培養學生完整的系統開發能力。",
+      "plainSummary": "本課是資管系實作教育畢業專題，學生以3至4人小組進行商用資訊系統開發。課程透過專題討論與實作，培養完整系統開發、研發創新與團隊執行能力。",
       "grading": [
         {
           "item": "平時專題",
           "percent": 50,
-          "rawText": "平時專題"
+          "rawText": "平時 專題 50.0"
         },
         {
           "item": "期中專題",
           "percent": 20,
-          "rawText": "期中專題"
+          "rawText": "期中 專題 20.0"
         },
         {
           "item": "期末專題",
           "percent": 30,
-          "rawText": "期末專題"
+          "rawText": "期末 專題 30.0"
         }
       ],
       "gradingStatus": "success",
       "gradingMessage": "",
-      "prerequisites": "無",
+      "prerequisites": "無。",
       "courseOutputs": [
-        "專題",
-        "系統開發"
+        "分組專題",
+        "系統開發",
+        "專題討論",
+        "實作成果"
       ],
       "urlCheckStatus": "unknown",
       "parseStatus": "success",
-      "effortLevel": "高",
-      "effortReason": "本課程為畢業專題，需長時間投入小組專案開發與討論，且評量完全以專題成果為導向。",
-      "manualReviewed": false
+      "manualReviewed": true
     }
   }
 }

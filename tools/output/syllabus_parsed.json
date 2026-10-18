@@ -2,7 +2,7 @@
   "MI123H": {
     "courseCode": "MI123H",
     "sourceFile": "MI123H_MI123H_1.pdf",
-    "plainSummary": "1.訓練學生瞭解資訊管理的範圍與內容 2.訓練學生瞭解並透過討論、資料收集能提出資訊科技在企業、組織的應用與影響 3.訓練學生瞭解並透過討論、資料收集能提出資訊科技在社會/永續發展的應用與影響 4.訓練學生瞭解並實現團隊合作與學習的重要",
+    "plainSummary": "課程教學目標 1.訓練學生瞭解資訊管理的範圍與內容 2.訓練學生瞭解並透過討論、資料收集能提出資訊科技在企業、組織的應用與影響 3.訓練學生瞭解並透過討論、資料收集能提出資訊科技在社會/永續發展的應用與影響 4.訓練學生瞭解並實現團隊合",
     "grading": [
       {
         "item": "1142 學年度 資管三乙資訊管理 課程計畫 課程代碼 MI123H 授課教師 吳肇銘 課程名稱 資訊管理 開課班級 資",
@@ -27,7 +27,7 @@
     ],
     "gradingStatus": "success",
     "gradingMessage": "",
-    "prerequisites": "課綱未列明學前科目或能力需求。",
+    "prerequisites": "課綱未明確要求。",
     "courseOutputs": [
       "作業",
       "報告",
@@ -38,7 +38,7 @@
   "MI340H": {
     "courseCode": "MI340H",
     "sourceFile": "MI340H_MI340H_2.pdf",
-    "plainSummary": "培養學生熟悉軟體系統開發專案所使用之各項技術與工具，並且能夠實際使用這些工具與技術完 成資訊系統開發之專案管控作業",
+    "plainSummary": "課程教學目標 培養學生熟悉軟體系統開發專案所使用之各項技術與工具，並且能夠實際使用這些工具與技術完 成資訊系統開發之專案管控作業 其他注意事項 成果導向之課程設計 校指標學系能力指標權重 能力指標(績效標準) 學習活動與評量 專業 基礎",
     "grading": [
       {
         "item": "1142 學年度 資管三乙軟體專案管理 課程計畫 課程代碼 MI340H 授課教師 劉士豪 課程名稱 軟體專案管理 開課",
@@ -68,7 +68,7 @@
     ],
     "gradingStatus": "success",
     "gradingMessage": "",
-    "prerequisites": "課綱未列明學前科目或能力需求。",
+    "prerequisites": "課綱未明確要求。",
     "courseOutputs": [
       "作業",
       "報告",
@@ -79,7 +79,7 @@
   "MI373H": {
     "courseCode": "MI373H",
     "sourceFile": "MI373H_MI373H_3.pdf",
-    "plainSummary": "The objective of this course is to train students' speaking and conversation abilities for business.Vocabulary, idioms",
+    "plainSummary": "課程教學目標 The objective of this course is to train students' speaking and conversation abilities for business.Vocabulary,",
     "grading": [
       {
         "item": "1142 學年度 資管三乙商業英語會話(二) 課程計畫 課程代碼 MI373H 授課教師 賴曉雯 課程名稱 商業英語會話",
@@ -124,7 +124,7 @@
     ],
     "gradingStatus": "success",
     "gradingMessage": "",
-    "prerequisites": "課綱未列明學前科目或能力需求。",
+    "prerequisites": "課綱未明確要求。",
     "courseOutputs": [
       "作業",
       "報告",
@@ -138,7 +138,7 @@
   "MI373J": {
     "courseCode": "MI373J",
     "sourceFile": "MI373J_MI373J_4.pdf",
-    "plainSummary": "This course aims to enhance students' English speaking skills through discussion of various topics, role-playing and s",
+    "plainSummary": "課程教學目標 This course aims to enhance students' English speaking skills through discussion of various topics, role-playin",
     "grading": [
       {
         "item": "1142 學年度 資管三乙商業英語會話(二) 課程計畫 課程代碼 MI373J 授課教師 鄒明達 課程名稱 商業英語會話",
@@ -168,7 +168,7 @@
     ],
     "gradingStatus": "success",
     "gradingMessage": "",
-    "prerequisites": "課綱未列明學前科目或能力需求。",
+    "prerequisites": "課綱未明確要求。",
     "courseOutputs": [
       "作業"
     ],
@@ -177,7 +177,7 @@
   "MI651H": {
     "courseCode": "MI651H",
     "sourceFile": "MI651H_MI651H_7.pdf",
-    "plainSummary": "本門課程為本系之實作教育畢業專題，學生3-4人一組，針對商用資訊系統進行開發，希望培養學 生在畢業前具備完整的系統開發能力。本門課程除了安排廠商進行產學合作外，也強調研發創新 ， 學生可以在本門課中，充分瞭解系統開發應該具備的知識。",
+    "plainSummary": "課程教學目標 本門課程為本系之實作教育畢業專題，學生3-4人一組，針對商用資訊系統進行開發，希望培養學 生在畢業前具備完整的系統開發能力。本門課程除了安排廠商進行產學合作外，也強調研發創新 ， 學生可以在本門課中，充分瞭解系統開發應該具",
     "grading": [
       {
         "item": "1142 學年度 資管三乙資訊管理專題(一) 課程計畫 課程代碼 MI651H 授課教師 廖慶榮, 李國誠, 廖秀莉 課",
@@ -192,7 +192,7 @@
     ],
     "gradingStatus": "success",
     "gradingMessage": "",
-    "prerequisites": "無。",
+    "prerequisites": "課綱未明確要求。",
     "courseOutputs": [
       "專題",
       "討論",

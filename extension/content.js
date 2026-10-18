@@ -203,11 +203,8 @@ function openCompareModal() {
   modal.className = 'aiwatch-compare-modal';
   modal.innerHTML = `
     <div class="aiwatch-compare-dialog">
-      <div class="aiwatch-compare-head"><div><strong>課程比較</strong><span>已選 ${aiwatchCompare.size}/3 門</span></div><div><button type="button" class="aiwatch-advise-button">AI 選課建議</button><button type="button" class="aiwatch-clear-compare">清除</button><button type="button" class="aiwatch-close-compare">關閉</button></div></div>
-      <div class="aiwatch-compare-scroll">
-        <table>${compareRows().map(row => `<tr>${row.map((cell, index) => `<${index ? 'td' : 'th'}>${index ? renderCompareCell(row[0], cell) : escapeHtml(cell)}</${index ? 'td' : 'th'}>`).join('')}</tr>`).join('')}</table>
-        <div class="aiwatch-advice-result" hidden></div>
-      </div>
+      <div class="aiwatch-compare-head"><div><strong>課程比較</strong><span>已選 ${aiwatchCompare.size}/3 門</span></div><div><button type="button" class="aiwatch-clear-compare">清除</button><button type="button" class="aiwatch-close-compare">關閉</button></div></div>
+      <div class="aiwatch-compare-scroll"><table>${compareRows().map(row => `<tr>${row.map((cell, index) => `<${index ? 'td' : 'th'}>${index ? renderCompareCell(row[0], cell) : escapeHtml(cell)}</${index ? 'td' : 'th'}>`).join('')}</tr>`).join('')}</table></div>
     </div>
   `;
   modal.querySelector('.aiwatch-close-compare').addEventListener('click', () => modal.remove());
@@ -216,54 +213,10 @@ function openCompareModal() {
     refreshCompareButtons();
     renderCompareLauncher();
   });
-  modal.querySelector('.aiwatch-advise-button').addEventListener('click', () => requestAdvice(modal));
   modal.addEventListener('click', event => {
     if (event.target === modal) modal.remove();
   });
   document.body.appendChild(modal);
-}
-
-function renderAdviceError(container, code, message) {
-  const text = {
-    missing_api_key: '尚未設定 Gemini API Key，請點擴充功能圖示的彈出視窗設定後再試。',
-    not_enough_courses: '請先加入至少 2 門課再取得 AI 選課建議。',
-    api_error: `AI 呼叫失敗：${escapeHtml(message || '')}`,
-  }[code] || 'AI 選課建議發生未知錯誤。';
-  container.innerHTML = `<p class="aiwatch-advice-error">${text}</p>`;
-}
-
-function renderAdviceResult(container, data) {
-  const conflicts = (data.conflicts || []).map(c => `<li>${escapeHtml(c)}</li>`).join('');
-  const overlaps = (data.contentOverlap || []).map(c => `<li>${escapeHtml(c)}</li>`).join('');
-  const priority = (data.priorityOrder || []).map(c => `<li>${escapeHtml(c)}</li>`).join('');
-  container.innerHTML = `
-    <h4>AI 選課建議（依課綱內容分析）</h4>
-    <p><b>總學分：</b>${escapeHtml(String(data.creditTotal ?? '未知'))}</p>
-    <p><b>時間衝堂：</b></p>
-    ${conflicts ? `<ul>${conflicts}</ul>` : '<p>未發現時間衝堂。</p>'}
-    <p><b>課綱內容重疊：</b></p>
-    ${overlaps ? `<ul>${overlaps}</ul>` : '<p>未發現明顯內容重疊。</p>'}
-    ${data.workloadWarning ? `<p><b>負荷提醒：</b>${escapeHtml(data.workloadWarning)}</p>` : ''}
-    ${priority ? `<p><b>建議優先順序：</b></p><ol>${priority}</ol>` : ''}
-    <p><b>綜合建議：</b>${escapeHtml(data.advice || '')}</p>
-  `;
-}
-
-async function requestAdvice(modal) {
-  const container = modal.querySelector('.aiwatch-advice-result');
-  container.hidden = false;
-  container.innerHTML = '<p>AI 正在分析選課清單…</p>';
-  const courses = Array.from(aiwatchCompare.values());
-  try {
-    const response = await chrome.runtime.sendMessage({type: 'AIWATCH_GET_ADVICE', courses});
-    if (response?.error) {
-      renderAdviceError(container, response.error, response.message);
-      return;
-    }
-    renderAdviceResult(container, response.data);
-  } catch (error) {
-    renderAdviceError(container, 'api_error', String(error?.message || error));
-  }
 }
 
 function ensureFilterBar(summaries) {
