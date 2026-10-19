@@ -26,6 +26,20 @@
 
 ---
 
+## 📸 系統畫面
+
+> 以下截圖來自本機 FAKE Demo 頁與載入的 Extension；頁面上的學號已遮蔽。
+
+**課綱摘要卡**：點課程列旁的「AI 幫你監」展開
+
+![課綱摘要卡](docs/screenshots/summary-card.jpg)
+
+| 課程比較（最多 3 門） | 快速篩選「沒考試」的課 |
+|---|---|
+| ![課程比較](docs/screenshots/compare.jpg) | ![沒考試篩選](docs/screenshots/filter-no-exam.jpg) |
+
+---
+
 ## 🏗️ 資料處理流程
 
 ```mermaid
