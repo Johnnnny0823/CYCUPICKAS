@@ -1,59 +1,88 @@
-# AI 幫你監
+# 🎓 AI 幫你監 — 中原選課課綱摘要 Chrome Extension
 
-中原選課系統課綱摘要輔助 Chrome Extension 原型。本作品不是選課系統，也不代選課；目前只在本機 FAKE HTML Demo 課程列表上注入「AI 幫你監」按鈕，讀取本地摘要 JSON 顯示課綱摘要卡。
+在中原大學選課的課程列表旁加上「AI 幫你監」按鈕，一鍵展開這門課的**課綱摘要卡**：課程在教什麼、怎麼評分、需要什麼先備知識、會有哪些作業或報告，不用再一門一門點進課綱慢慢找。
 
-## 解決的問題
+> 本作品是原型：不是選課系統，也不代選課。目前只在本機的 FAKE HTML Demo 課程列表上運作，讀取的是預先整理好的本地摘要 JSON。
 
-學生選課時常要逐一點開課綱才能看到課程內容、評分方式、先備知識與可能產出。本工具把公開課綱中已存在的資訊整理到同一頁，減少來回點擊。
+---
 
-## 架構
+## 😩 解決的問題
 
-`課程資料.xls` -> `course_seed.json` -> 驗證課綱 URL -> 抓取 HTML -> 本地解析 -> `course_summaries.json` -> Chrome Extension 注入摘要卡。
+學生選課時，常要逐一點開課綱才看得到課程內容、評分方式、先備知識與可能的產出。本工具把公開課綱中**已經存在**的資訊整理到課程列表同一頁，減少來回點擊與遺漏。
 
-本版本不使用 Gemini、OpenAI 或任何 LLM API。
+---
 
-## 使用教學
+## ✨ 功能
 
-給展示人員的逐步操作文件：docs/USER_GUIDE.md。
+| 功能 | 說明 |
+|---|---|
+| 📋 課綱摘要卡 | 白話摘要、評分方式、先備知識、課程產出（報告、考試、作業等） |
+| ⚖️ 課程比較 | 把課程加入比較，最多同時比較 3 門 |
+| 🔎 快速篩選 | 一鍵篩出「沒報告」「沒考試」「沒作業」的課 |
+| 🌐 補充搜尋 | 產生 Google 搜尋連結，讓學生自己查評價（不爬任何評論網站） |
+| ✍️ 人工修正 | 自動解析不到的課，可在 `manual_overrides.json` 手動補上 |
 
-## 安裝 Chrome Extension
+本版本使用**規則式解析**，不呼叫 Gemini、OpenAI 或任何 LLM API。
 
-1. 開啟 Chrome `chrome://extensions/`。
-2. 開啟「開發人員模式」。
-3. 點「載入未封裝項目」。
-4. 選擇本專案的 `extension/` 資料夾。
+---
 
-## 啟動 Demo
+## 🏗️ 資料處理流程
+
+```mermaid
+flowchart LR
+    X["課程資料.xls / .csv"] -->|excel_to_course_seed.py| S["course_seed.json"]
+    S -->|verify_syllabus_urls.py| U["課綱網址驗證結果"]
+    U -->|fetch_syllabus_html.py| H["課綱 HTML"]
+    H -->|parse_syllabus_html.py| P["syllabus_parsed.json"]
+    P --> B["build_course_summaries.py"]
+    O["manual_overrides.json<br/>人工修正"] --> B
+    B --> J["course_summaries.json"]
+    J -->|validate_course_summaries.py| J
+    J --> E["Chrome Extension<br/>注入摘要卡"]
+```
+
+所有資料都在本機處理好，瀏覽器端只讀取 Extension 內附的 JSON。更多說明見 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)。
+
+---
+
+## 🚀 快速展示
+
+給展示人員的逐步操作說明：[docs/USER_GUIDE.md](docs/USER_GUIDE.md)。
+
+### 1. 安裝 Chrome Extension
+
+1. 開啟 Chrome `chrome://extensions/`
+2. 開啟右上角「開發人員模式」
+3. 點「載入未封裝項目」
+4. 選擇本專案的 `extension/` 資料夾
+
+### 2. 啟動 Demo 頁
 
 ```bash
-python -m http.server 8765
+python -m http.server 8765    # 或 npm run serve
 ```
 
-打開：
+打開 http://localhost:8765/demo/fake_selection_system.html 。頁面本身會載入完整課程表格，摘要、比較與篩選則由 Extension 注入。
 
-```text
-http://localhost:8765/demo/fake_selection_system.html
-```
+### 3. 操作
 
-頁面本身載入完整課程表格；摘要、比較與 AI 篩選由 Extension 注入。
+1. 點課程列旁的「AI 幫你監」
+2. 展開摘要卡，查看摘要、評分方式、先備知識、課程產出與補充搜尋
+3. 試試上方的篩選按鈕，或把幾門課加入比較
 
-## 放入課程資料
+Extension 無法載入時，可以直接開 `demo/integrated_backup.html`，它會顯示同一批摘要資料。
 
-把 `課程資料.xls` 放到：
+---
 
-```text
-tools/raw/excel/課程資料.xls
-```
+## 🔧 更新課程資料
 
-若 Python 沒有舊版 `.xls` 讀取引擎，可用 Excel 另存為 CSV，再執行：
+### 1. 放入課程資料
 
-```bash
-python tools/excel_to_course_seed.py --input tools/raw/excel/課程資料.csv --year-term 1142 --output extension/data/course_seed.json
-```
+把 `課程資料.xls` 放到 `tools/raw/excel/`。如果 Python 沒有舊版 `.xls` 的讀取引擎，可以用 Excel 另存成 CSV（或安裝 `xlrd`）。
 
-## 資料處理流程
+### 2. 依序執行處理工具
 
-`excel_to_course_seed.py` 會保留 `courseCode` 作為頁面比對代碼，並使用 Excel 的 `課程代碼` 產生 `opCode` 與課綱網址。
+`excel_to_course_seed.py` 會保留 `courseCode` 作為頁面比對代碼，並用 Excel 的「課程代碼」產生 `opCode` 與課綱網址。
 
 ```bash
 python tools/excel_to_course_seed.py --input tools/raw/excel/課程資料.csv --year-term 1142 --output extension/data/course_seed.json
@@ -64,9 +93,9 @@ python tools/build_course_summaries.py --seed extension/data/course_seed.json --
 python tools/validate_course_summaries.py extension/data/course_summaries.json
 ```
 
-## 人工修正
+### 3. 人工修正
 
-編輯 `tools/manual_overrides.json`：
+編輯 `tools/manual_overrides.json`，再重跑 `build_course_summaries.py` 與 `validate_course_summaries.py`：
 
 ```json
 {
@@ -78,29 +107,57 @@ python tools/validate_course_summaries.py extension/data/course_summaries.json
 }
 ```
 
-重跑 `build_course_summaries.py` 與 `validate_course_summaries.py`。
+---
 
-## 隱私與限制
+## 🧪 測試
 
-不要求帳密、不登入校方系統、不讀取個人課表、成績或點名資料。不爬 Dcard、PTT、歐趴糖評論，只產生 Google 搜尋連結。
+```bash
+npm test               # python -m unittest discover -s tests
+npm run validate       # 驗證 course_summaries.json 格式
+npm run verify-demo    # 驗證 Demo 頁與 Extension 的對應關係
+```
 
-目前公開課綱頁可能回應正常但不含可解析課綱內容，請以 `tools/output/syllabus_url_check.json` 為準。
+---
 
-## Demo 操作
+## 📁 專案結構
 
-1. 啟動本機伺服器。
-2. 載入 Extension。
-3. 打開 Demo 頁。
-4. 點課程列旁「AI 幫你監」。
-5. 展開摘要卡，查看摘要、評分方式、先備知識、課程產出與補充搜尋。
+```text
+.
+├─ extension/        # Chrome Extension（MV3）
+│  ├─ manifest.json
+│  ├─ content.js     # 掃描課程列、注入摘要卡、比較與篩選
+│  ├─ popup.html/js  # 顯示狀態與重新掃描
+│  └─ data/          # 課程種子與摘要 JSON
+├─ demo/             # 本機 FAKE 選課頁與備援頁
+├─ tools/            # 資料轉檔、網址驗證、抓取、解析、合併工具
+├─ tests/            # 單元測試
+└─ docs/             # PRD、架構、資料格式、隱私、限制、展示腳本
+```
 
-## 常見錯誤
+---
 
-- `無法讀取 .xls`：用 Excel 另存 CSV，或安裝 `xlrd`。
-- 按鈕沒出現：確認 Extension 已載入，且 URL 是 `http://localhost:8765/demo/fake_selection_system.html`。
-- 摘要為尚未解析：代表課綱 URL 未開放或 HTML 未包含關鍵字，可用 `manual_overrides.json` 補正。
+## 🔒 隱私與限制
 
+- 不要求帳密、不登入校方系統、不讀取個人課表、成績或點名資料
+- 不爬 Dcard、PTT、歐趴糖評論，只產生 Google 搜尋連結
+- 有些公開課綱頁雖然回應正常，但內容不含可解析的課綱，請以 `tools/output/syllabus_url_check.json` 為準
 
+詳見 [docs/PRIVACY.md](docs/PRIVACY.md)、[docs/LIMITATIONS.md](docs/LIMITATIONS.md)。
 
+---
 
+## ❓ 常見錯誤
 
+| 狀況 | 解法 |
+|---|---|
+| `無法讀取 .xls` | 用 Excel 另存 CSV，或安裝 `xlrd` |
+| 按鈕沒出現 | 確認 Extension 已載入，且網址是 `http://localhost:8765/demo/fake_selection_system.html` |
+| 摘要顯示「尚未解析」 | 課綱 URL 未開放或 HTML 不含關鍵字，可用 `manual_overrides.json` 補正 |
+
+---
+
+## 📚 文件
+
+- 專題文件：[作品構想書](AI幫你監作品構想書.pdf)、[簡報](中原AI幫你監簡報.pdf)、未來成果報告書（`AI幫你監未來成果報告書V2.docx`）
+- 產品與技術：[PRD](docs/PRD.md)、[架構](docs/ARCHITECTURE.md)、[資料格式](docs/DATA_SCHEMA.md)、[驗證計畫](docs/VERIFICATION_PLAN.md)
+- 展示：[使用教學](docs/USER_GUIDE.md)、[展示腳本](docs/DEMO_SCRIPT.md)
