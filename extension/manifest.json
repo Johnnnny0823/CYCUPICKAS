@@ -4,20 +4,13 @@
   "version": "1.1.2",
   "description": "中原選課系統課綱摘要輔助插件",
   "permissions": [
-    "storage",
     "activeTab"
-  ],
-  "host_permissions": [
-    "http://localhost:*/*",
-    "http://127.0.0.1:*/*",
-    "file:///*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://localhost:*/*",
-        "http://127.0.0.1:*/*",
-        "file:///*"
+        "http://localhost/*/fake_selection_system.html",
+        "http://127.0.0.1/*/fake_selection_system.html"
       ],
       "js": [
         "content.js"
@@ -34,7 +27,8 @@
         "data/course_summaries_itouch.json"
       ],
       "matches": [
-        "<all_urls>"
+        "http://localhost/*",
+        "http://127.0.0.1/*"
       ]
     }
   ],

@@ -2,7 +2,7 @@ let aiwatchSummaries = null;
 const aiwatchCompare = new Map();
 
 function isDemoCoursePage() {
-  return location.pathname.toLowerCase().includes('fake_selection_system');
+  return location.pathname.endsWith('/fake_selection_system.html');
 }
 
 function shouldProcessPage() {
@@ -40,6 +40,21 @@ function matchCourseSummary(courseCode, summaries) {
 
 function buildPreviewUrl(courseCode) {
   return `https://cmap.cycu.edu.tw:8443/Syllabus/CoursePreview.html?yearTerm=1142&opCode=${encodeURIComponent(courseCode)}`;
+}
+
+function syllabusLink(summary) {
+  for (const candidate of [summary.previewUrl, summary.syllabusUrl]) {
+    if (typeof candidate !== 'string') continue;
+    try {
+      const url = new URL(candidate);
+      if (url.origin === 'https://cmap.cycu.edu.tw:8443' && !url.username && !url.password) {
+        return url.href;
+      }
+    } catch {
+      // Fall back to the official course preview.
+    }
+  }
+  return buildPreviewUrl(summary.courseCode);
 }
 
 function fallbackSummaryFromRow(courseCode, row) {
@@ -86,10 +101,10 @@ function createSummaryCard(summary) {
   const card = document.createElement('div');
   card.className = 'aiwatch-card';
   const gradingRows = (summary.grading || [])
-    .map(item => `<tr><td>${escapeHtml(item.item || item.rawText || '')}</td><td>${item.percent == null ? '依課綱原文' : `${item.percent}%`}</td></tr>`)
+    .map(item => `<tr><td>${escapeHtml(item.item || item.rawText || '')}</td><td>${item.percent == null ? '依課綱原文' : escapeHtml(item.percent + '%')}</td></tr>`)
     .join('');
   const outputs = (summary.courseOutputs || []).map(item => `<span class="aiwatch-chip">${escapeHtml(item)}</span>`).join('');
-  const openUrl = summary.previewUrl || summary.syllabusUrl || buildPreviewUrl(summary.courseCode);
+  const openUrl = syllabusLink(summary);
   card.innerHTML = `
     <div class="aiwatch-card-header">
       <div><div class="aiwatch-kicker">AI 幫你監</div><div class="aiwatch-title">${escapeHtml(summary.courseName || summary.courseCode)}</div></div>

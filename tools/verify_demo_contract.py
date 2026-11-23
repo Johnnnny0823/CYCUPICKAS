@@ -26,7 +26,14 @@ for required in ['AI 篩選', 'no-report', 'no-exam', 'no-homework', '比較清�
     assert required in content, f'Missing content feature: {required}'
 assert 'itouch.cycu.edu.tw' not in json.dumps(manifest, ensure_ascii=False), 'Manifest should not match itouch anymore'
 assert 'https://*.cycu.edu.tw/*' not in json.dumps(manifest, ensure_ascii=False), 'Manifest should not inject into CYCU real pages'
-assert manifest['content_scripts'][0]['matches'] == ['http://localhost:*/*', 'http://127.0.0.1:*/*', 'file:///*']
+assert manifest['content_scripts'][0]['matches'] == [
+    'http://localhost/*/fake_selection_system.html',
+    'http://127.0.0.1/*/fake_selection_system.html',
+]
+assert manifest['web_accessible_resources'][0]['matches'] == [
+    'http://localhost/*',
+    'http://127.0.0.1/*',
+]
 
 print(json.dumps({
     'seed_rows': len(seed),
